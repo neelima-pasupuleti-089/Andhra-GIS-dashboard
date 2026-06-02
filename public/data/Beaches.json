@@ -1,0 +1,1215 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-30T10:59:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20153573",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2015808,
+          16.1327234
+        ]
+      },
+      "id": "relation/20153573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20169384",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6694992,
+          15.8796323
+        ]
+      },
+      "id": "relation/20169384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20169385",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5897563,
+          15.8637714
+        ]
+      },
+      "id": "relation/20169385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20169721",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4933477,
+          15.8322997
+        ]
+      },
+      "id": "relation/20169721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20172704",
+        "name": "Dindi Beach",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7332609,
+          15.8721713
+        ]
+      },
+      "id": "relation/20172704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20187439",
+        "natural": "beach",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.0948002,
+          15.9380932
+        ]
+      },
+      "id": "relation/20187439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20277453",
+        "name": "Manginapudi Beach",
+        "natural": "beach",
+        "type": "multipolygon",
+        "wikidata": "Q24945329",
+        "wikipedia": "en:Manginapudi Beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2526951,
+          16.2594105
+        ]
+      },
+      "id": "relation/20277453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/63133082",
+        "alt_name": "Vizag beach",
+        "name": "Ramakrishna Beach",
+        "natural": "beach",
+        "supervised": "yes",
+        "surface": "sand",
+        "wikidata": "Q7288804",
+        "wikipedia": "en:RK Beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3221954,
+          17.712103
+        ]
+      },
+      "id": "way/63133082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66759481",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1670993,
+          17.0150527
+        ]
+      },
+      "id": "way/66759481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66759483",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1749673,
+          16.9991875
+        ]
+      },
+      "id": "way/66759483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765196",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2754478,
+          16.866931
+        ]
+      },
+      "id": "way/66765196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765201",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2812632,
+          16.8472248
+        ]
+      },
+      "id": "way/66765201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765205",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2906586,
+          16.8282131
+        ]
+      },
+      "id": "way/66765205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765208",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2947013,
+          16.8265625
+        ]
+      },
+      "id": "way/66765208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765213",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2803741,
+          16.8581087
+        ]
+      },
+      "id": "way/66765213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765220",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.284985,
+          16.8341329
+        ]
+      },
+      "id": "way/66765220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765226",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2846492,
+          16.8421296
+        ]
+      },
+      "id": "way/66765226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765233",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2760995,
+          16.8755082
+        ]
+      },
+      "id": "way/66765233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66765236",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.293526,
+          16.8170011
+        ]
+      },
+      "id": "way/66765236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258895497",
+        "name": "Vadarevu beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4130692,
+          15.793981
+        ]
+      },
+      "id": "way/258895497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/300136613",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9048253,
+          17.4342686
+        ]
+      },
+      "id": "way/300136613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/300136618",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8676688,
+          17.4158624
+        ]
+      },
+      "id": "way/300136618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/300136627",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8559629,
+          17.4116022
+        ]
+      },
+      "id": "way/300136627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395601296",
+        "name": "Uppada Beach",
+        "natural": "beach",
+        "wikipedia": "en:Uppada Beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.3417991,
+          17.082144
+        ]
+      },
+      "id": "way/395601296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395841909",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.049704,
+          18.2685504
+        ]
+      },
+      "id": "way/395841909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/395967517",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9770909,
+          18.2291748
+        ]
+      },
+      "id": "way/395967517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396092358",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8392394,
+          18.1674734
+        ]
+      },
+      "id": "way/396092358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396092359",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9032946,
+          18.1951255
+        ]
+      },
+      "id": "way/396092359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396096668",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7443804,
+          18.1222848
+        ]
+      },
+      "id": "way/396096668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396596894",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0060389,
+          17.4947404
+        ]
+      },
+      "id": "way/396596894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396596895",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9984857,
+          17.4816867
+        ]
+      },
+      "id": "way/396596895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396722469",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.112205,
+          15.3435981
+        ]
+      },
+      "id": "way/396722469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396722471",
+        "addr:street": "kotha patnam",
+        "name": "Kotha patnam beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1622165,
+          15.4181687
+        ]
+      },
+      "id": "way/396722471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397054405",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3465495,
+          17.740448
+        ]
+      },
+      "id": "way/397054405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562030077",
+        "name": "Rushikonda Beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3856645,
+          17.7817655
+        ]
+      },
+      "id": "way/562030077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627423839",
+        "name": "Yekuvuru Beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5833272,
+          18.8562665
+        ]
+      },
+      "id": "way/627423839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630130842",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3438717,
+          17.7316202
+        ]
+      },
+      "id": "way/630130842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/630400294",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.113948,
+          18.3151358
+        ]
+      },
+      "id": "way/630400294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/687683421",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3628821,
+          17.7619387
+        ]
+      },
+      "id": "way/687683421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/687683422",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3536902,
+          17.7551974
+        ]
+      },
+      "id": "way/687683422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/687683423",
+        "name": "Jodugulla Palem Beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3514127,
+          17.7518474
+        ]
+      },
+      "id": "way/687683423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/694240264",
+        "addr:city": "Kakinada,Andhra Pradesh",
+        "addr:postcode": "533005",
+        "addr:street": "Kakinada-Uppada Beach Rd",
+        "name": "Kakinada Beach Park",
+        "natural": "beach",
+        "opening_hours": "Mo-Su 05:00-19:00",
+        "operator": "Ap tourism",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2921475,
+          17.0210636
+        ]
+      },
+      "id": "way/694240264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/694240265",
+        "addr:city": "Kakinada,Andhra Pradesh",
+        "addr:postcode": "533005",
+        "addr:street": "uppada kakinada beach",
+        "name": "Kakinada Beach park",
+        "natural": "beach",
+        "operator": "Ap tourism",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2918097,
+          17.0196354
+        ]
+      },
+      "id": "way/694240265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/721875746",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2885752,
+          18.5032956
+        ]
+      },
+      "id": "way/721875746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/724344056",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.6975745,
+          18.9877696
+        ]
+      },
+      "id": "way/724344056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/724381453",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7291401,
+          19.0286645
+        ]
+      },
+      "id": "way/724381453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778313916",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1792255,
+          18.3943707
+        ]
+      },
+      "id": "way/778313916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/779046879",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4178261,
+          18.6499497
+        ]
+      },
+      "id": "way/779046879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784400937",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7597549,
+          19.0739591
+        ]
+      },
+      "id": "way/784400937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784400940",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.7669288,
+          19.084034
+        ]
+      },
+      "id": "way/784400940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1188905161",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.16171,
+          14.3357307
+        ]
+      },
+      "id": "way/1188905161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1188905191",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1523659,
+          14.3117669
+        ]
+      },
+      "id": "way/1188905191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1244604856",
+        "name": "Odalarevu Beach",
+        "natural": "beach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9788499,
+          16.4136257
+        ]
+      },
+      "id": "way/1244604856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8094447548",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1452663,
+          14.0460053
+        ]
+      },
+      "id": "node/8094447548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11033768823",
+        "name": "Hamsaladeevi / Palakayatippa Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1161612,
+          15.9556015
+        ]
+      },
+      "id": "node/11033768823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11043962142",
+        "name": "Potti Subbaiaha Palem  Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3482439,
+          15.7522105
+        ]
+      },
+      "id": "node/11043962142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11043962144",
+        "name": "Vodarevu Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4127953,
+          15.7942976
+        ]
+      },
+      "id": "node/11043962144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11074992601",
+        "name": "Onturu Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.6588816,
+          18.9434486
+        ]
+      },
+      "id": "node/11074992601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11075656569",
+        "name": "Kothapeta Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3765745,
+          18.604179
+        ]
+      },
+      "id": "node/11075656569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11075656570",
+        "name": "Bhavanapadu Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3568995,
+          18.5702263
+        ]
+      },
+      "id": "node/11075656570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11075656571",
+        "name": "Geddalapadu Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2557067,
+          18.4760057
+        ]
+      },
+      "id": "node/11075656571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11295510668",
+        "name": "Thanthadi Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0651442,
+          17.5256033
+        ]
+      },
+      "id": "node/11295510668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11295558269",
+        "name": "Beach View Point",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0661245,
+          17.5253231
+        ]
+      },
+      "id": "node/11295558269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11337141679",
+        "name": "Rambilli Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9304908,
+          17.445919
+        ]
+      },
+      "id": "node/11337141679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11435595288",
+        "lifeguard": "no",
+        "name": "Odalarevu Beach",
+        "natural": "beach",
+        "supervised": "no",
+        "surface": "sand",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9772632,
+          16.4133333
+        ]
+      },
+      "id": "node/11435595288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12077743325",
+        "name": "Ramachandrapuram  Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3130599,
+          15.7205113
+        ]
+      },
+      "id": "node/12077743325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078199201",
+        "name": "Suryalanka Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5088304,
+          15.8398861
+        ]
+      },
+      "id": "node/12078199201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12102882143",
+        "name": "Dokulapadu Beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4666433,
+          18.7124474
+        ]
+      },
+      "id": "node/12102882143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596109323",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2655057,
+          16.9511152
+        ]
+      },
+      "id": "node/12596109323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12912568588",
+        "name": "Chintapalli beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6572565,
+          18.0735501
+        ]
+      },
+      "id": "node/12912568588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13204709673",
+        "name": "mypadu beach",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1802234,
+          14.5227622
+        ]
+      },
+      "id": "node/13204709673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13509322283",
+        "name": "చెరువు",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2462755,
+          16.8622866
+        ]
+      },
+      "id": "node/13509322283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13509363960",
+        "name": "ఎర్రా చెరువు",
+        "natural": "beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2487646,
+          16.8667495
+        ]
+      },
+      "id": "node/13509363960"
+    }
+  ]
+}

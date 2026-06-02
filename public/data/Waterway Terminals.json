@@ -1,0 +1,444 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-30T10:45:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/226136436",
+        "amenity": "ferry_terminal",
+        "source": "PGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8944046,
+          15.848129
+        ]
+      },
+      "id": "node/226136436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/807376031",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Nagarjunakonda Launch Terminal",
+        "name:te": "నాగార్జునకొండ లాంచి రేవు",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2477852,
+          16.5218926
+        ]
+      },
+      "id": "node/807376031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1170488981",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Nagarjunakonda Launch Terminal",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3071622,
+          16.5640777
+        ]
+      },
+      "id": "node/1170488981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174701770",
+        "amenity": "ferry_terminal",
+        "cargo": "crude oil",
+        "name": "Ravva port",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.1284722,
+          16.4444444
+        ]
+      },
+      "id": "way/1174701770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1194058336",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0368374,
+          16.697389
+        ]
+      },
+      "id": "node/1194058336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1194158782",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7113076,
+          16.439535
+        ]
+      },
+      "id": "node/1194158782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1194158969",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7085376,
+          16.439425
+        ]
+      },
+      "id": "node/1194158969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1410450922",
+        "amenity": "ferry_terminal",
+        "building": "yes",
+        "building:levels": "2",
+        "ferry": "yes",
+        "name": "Vizag International Cruise Terminal",
+        "public_transport": "station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2925341,
+          17.6895537
+        ]
+      },
+      "id": "way/1410450922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1492148150",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8816718,
+          16.0807035
+        ]
+      },
+      "id": "node/1492148150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2144251506",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8751407,
+          15.781341
+        ]
+      },
+      "id": "node/2144251506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2144251718",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.88976,
+          15.8412726
+        ]
+      },
+      "id": "node/2144251718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3260089736",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3469349,
+          16.033243
+        ]
+      },
+      "id": "node/3260089736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4294978298",
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "source": "Maxar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.638428,
+          17.2156158
+        ]
+      },
+      "id": "node/4294978298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5128169021",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0734177,
+          16.81943
+        ]
+      },
+      "id": "node/5128169021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5128169022",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.074277,
+          16.8143438
+        ]
+      },
+      "id": "node/5128169022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5917581330",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8817124,
+          15.7842189
+        ]
+      },
+      "id": "node/5917581330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6371831610",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9579971,
+          16.4219606
+        ]
+      },
+      "id": "node/6371831610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7251613798",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5615622,
+          18.7011136
+        ]
+      },
+      "id": "node/7251613798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7728918370",
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "source": "Maxar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6461444,
+          17.2145947
+        ]
+      },
+      "id": "node/7728918370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8556856456",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9938971,
+          16.0444941
+        ]
+      },
+      "id": "node/8556856456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8556856457",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9959974,
+          16.0457087
+        ]
+      },
+      "id": "node/8556856457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10102540760",
+        "amenity": "ferry_terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0410061,
+          16.6925988
+        ]
+      },
+      "id": "node/10102540760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10104707748",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9498539,
+          16.4204225
+        ]
+      },
+      "id": "node/10104707748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11295011233",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5611316,
+          18.7025605
+        ]
+      },
+      "id": "node/11295011233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11740613074",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Mallavaram Dam Boating Point",
+        "operator": "AP Tourism",
+        "public_transport": "station",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9867745,
+          15.6627227
+        ]
+      },
+      "id": "node/11740613074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13577288636",
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.890467,
+          15.8834503
+        ]
+      },
+      "id": "node/13577288636"
+    }
+  ]
+}

@@ -1,0 +1,3973 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-30T11:00:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238319049",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police ground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8250834,
+          14.4752906
+        ]
+      },
+      "id": "way/238319049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/278777089",
+        "amenity": "police",
+        "name": "Police Station Putlampalli",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8625516,
+          14.4362616
+        ]
+      },
+      "id": "way/278777089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279868288",
+        "amenity": "police",
+        "name": "police quaters",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0284515,
+          15.8278479
+        ]
+      },
+      "id": "way/279868288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280454636",
+        "amenity": "police",
+        "name": "police head quarters",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0977223,
+          13.210464
+        ]
+      },
+      "id": "way/280454636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362039738",
+        "amenity": "police",
+        "building": "yes",
+        "name": "AP Checkpost",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1441648,
+          15.3104258
+        ]
+      },
+      "id": "way/362039738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365069965",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517501",
+        "addr:street": "Near Gangamma Temple, Tata Nagar, Pedda",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Tirupathi East Police Station",
+        "phone": "+91 8772289006",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4242832,
+          13.628493
+        ]
+      },
+      "id": "way/365069965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/397987285",
+        "amenity": "police",
+        "name": "Vigilance and Security Office",
+        "name:kn": "ಕಾವಲು ಮತ್ತು ಸುರಕ್ಷತೆ ಕಛೇರಿ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3508215,
+          13.6799238
+        ]
+      },
+      "id": "node/397987285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/398175831",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Parade Ground",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0343005,
+          15.5137431
+        ]
+      },
+      "id": "way/398175831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401732783",
+        "amenity": "police",
+        "building": "yes",
+        "name": "SN Puram Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6316978,
+          16.5240893
+        ]
+      },
+      "id": "way/401732783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/430711432",
+        "amenity": "police",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2994283,
+          17.7103215
+        ]
+      },
+      "id": "way/430711432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/431200400",
+        "amenity": "police",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3098573,
+          17.718173
+        ]
+      },
+      "id": "way/431200400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438750320",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Rural Police Station, Tuni",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5128414,
+          17.3418432
+        ]
+      },
+      "id": "way/438750320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/585314494",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7335611,
+          17.0168238
+        ]
+      },
+      "id": "way/585314494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613344125",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police High Frequency Receiving Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0419895,
+          15.7621562
+        ]
+      },
+      "id": "way/613344125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618736886",
+        "amenity": "police",
+        "name": "Kurnool Rural Office Circle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0403297,
+          15.8165516
+        ]
+      },
+      "id": "way/618736886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/623382549",
+        "addr:city": "kurnool",
+        "addr:postcode": "518002",
+        "addr:street": "ccamp",
+        "amenity": "police",
+        "building": "yes",
+        "name": "SC / ST Cell",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0423807,
+          15.8064637
+        ]
+      },
+      "id": "way/623382549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/623382551",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Traffic Police Control Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0435233,
+          15.8054779
+        ]
+      },
+      "id": "way/623382551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627118120",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Sulurpeta Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0147189,
+          13.7006378
+        ]
+      },
+      "id": "way/627118120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/634499243",
+        "amenity": "police",
+        "building": "yes",
+        "check_date": "2025-05-14",
+        "name": "Gajuwaka Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1932988,
+          17.6839854
+        ]
+      },
+      "id": "way/634499243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/676214346",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6632346,
+          17.1351427
+        ]
+      },
+      "id": "way/676214346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/711095157",
+        "amenity": "police",
+        "building": "yes",
+        "name": "POLICE STATION",
+        "operator": "GOVT",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9153475,
+          16.0246866
+        ]
+      },
+      "id": "way/711095157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/743349811",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Andhra Pradesh Special Police Force Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0192841,
+          15.8294047
+        ]
+      },
+      "id": "way/743349811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/758915959",
+        "amenity": "police",
+        "building": "yes",
+        "name": "District police office",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8096371,
+          17.012218
+        ]
+      },
+      "id": "way/758915959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/758915965",
+        "amenity": "police",
+        "building": "yes",
+        "name": "District police office",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8083394,
+          17.0159292
+        ]
+      },
+      "id": "way/758915965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/768458342",
+        "addr:city": "Pattikonda",
+        "addr:postcode": "518380",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police station",
+        "opening_hours": "24/7",
+        "operator": "AP government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5009578,
+          15.397523
+        ]
+      },
+      "id": "way/768458342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/858400761",
+        "amenity": "police",
+        "building": "yes",
+        "name": "RKV POLICE STATION",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5362758,
+          14.337903
+        ]
+      },
+      "id": "way/858400761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/875770005",
+        "amenity": "police",
+        "building": "yes",
+        "check_date": "2025-07-24",
+        "name": "Tadepalli Police station",
+        "name:te": "తాడేపల్లి",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6035544,
+          16.4815344
+        ]
+      },
+      "id": "way/875770005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888163799",
+        "addr:city": "Prathipadu",
+        "addr:postcode": "522019",
+        "addr:street": "Police Station Road",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Prathipadu Police Station",
+        "opening_hours": "24/7",
+        "operator": "AP Police",
+        "phone": "0863-2280233",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3335719,
+          16.1824378
+        ]
+      },
+      "id": "way/888163799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893621473",
+        "amenity": "police",
+        "leisure": "pitch",
+        "name": "Police parade ground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4328012,
+          16.2962745
+        ]
+      },
+      "id": "way/893621473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/923938721",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2812926,
+          17.7348024
+        ]
+      },
+      "id": "node/923938721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/936693251",
+        "amenity": "police",
+        "name": "Three Town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6429327,
+          16.2381436
+        ]
+      },
+      "id": "node/936693251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1058891377",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2945053,
+          17.1222754
+        ]
+      },
+      "id": "way/1058891377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1076236091",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5475273,
+          15.942253
+        ]
+      },
+      "id": "way/1076236091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1076236092",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police quarters",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5478406,
+          15.9422826
+        ]
+      },
+      "id": "way/1076236092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080516330",
+        "addr:city": "Srikakulam",
+        "addr:housenumber": "8V5V+7H2,",
+        "addr:postcode": "532001",
+        "addr:street": "RTC Complex Area, Shanti Nagar Colony, Balaga.",
+        "amenity": "police",
+        "building": "yes",
+        "name": "District Police Office",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8937926,
+          18.3081746
+        ]
+      },
+      "id": "way/1080516330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1082288717",
+        "amenity": "police",
+        "layer": "1",
+        "name": "Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2370901,
+          16.9543301
+        ]
+      },
+      "id": "way/1082288717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1082895644",
+        "amenity": "police",
+        "building": "yes",
+        "layer": "1",
+        "name": "SP Office",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2363158,
+          16.9739927
+        ]
+      },
+      "id": "way/1082895644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1111726920",
+        "amenity": "police",
+        "building": "yes",
+        "name": "1 town Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8222596,
+          14.4775822
+        ]
+      },
+      "id": "way/1111726920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1122228478",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Town Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.6105921,
+          17.6718678
+        ]
+      },
+      "id": "way/1122228478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232231759",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Station",
+        "opening_hours": "24/7",
+        "phone": "+918673274233",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5199597,
+          16.9935833
+        ]
+      },
+      "id": "way/1232231759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1235785318",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Coastal Security Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9650556,
+          16.4232544
+        ]
+      },
+      "id": "way/1235785318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1247109431",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Control Room",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6180992,
+          16.5111017
+        ]
+      },
+      "id": "way/1247109431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290065384",
+        "amenity": "police",
+        "building": "yes",
+        "name": "S Kota Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1383939,
+          18.114136
+        ]
+      },
+      "id": "way/1290065384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1292674218",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4141925,
+          16.9528785
+        ]
+      },
+      "id": "way/1292674218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1294922328",
+        "amenity": "police",
+        "building": "yes",
+        "check_date": "2024-07-01",
+        "image": "https://commons.wikimedia.org/wiki/File:Police_Station_in_Porumamilla.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9895236,
+          15.0103968
+        ]
+      },
+      "id": "way/1294922328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1324527318",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.4989357,
+          17.4766791
+        ]
+      },
+      "id": "way/1324527318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1330126311",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Disha",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3880705,
+          18.1117379
+        ]
+      },
+      "id": "way/1330126311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1331851104",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Vizianagaram 1st town police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4095302,
+          18.1151128
+        ]
+      },
+      "id": "way/1331851104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340214407",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Vizianagaram 2nd Town Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4155807,
+          18.1216774
+        ]
+      },
+      "id": "way/1340214407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1350677448",
+        "amenity": "police",
+        "name": "3 APSP",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2511453,
+          17.0081665
+        ]
+      },
+      "id": "way/1350677448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390757212",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Nallapadu Police Stataion",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4184129,
+          16.3422684
+        ]
+      },
+      "id": "way/1390757212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390757851",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police vehicle parking",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.418595,
+          16.3429918
+        ]
+      },
+      "id": "way/1390757851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390757902",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police vehicle parking",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4189816,
+          16.3429647
+        ]
+      },
+      "id": "way/1390757902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390757918",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police vehicle parking",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4184834,
+          16.3426362
+        ]
+      },
+      "id": "way/1390757918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390758000",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Area",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4188862,
+          16.3426252
+        ]
+      },
+      "id": "way/1390758000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390758096",
+        "addr:city": "Guntur Municipal Corporation",
+        "amenity": "police",
+        "building": "yes",
+        "name": "police Area",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4187913,
+          16.3422504
+        ]
+      },
+      "id": "way/1390758096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1410355413",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Permanent Traffic Count Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2067821,
+          17.813007
+        ]
+      },
+      "id": "way/1410355413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1417735966",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Central Reserve Police Force ( CRPF) 198 Betallion Headquarters",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.304598,
+          17.7110306
+        ]
+      },
+      "id": "way/1417735966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1423815457",
+        "amenity": "police",
+        "barrier": "wall",
+        "name": "3 Town Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3260854,
+          17.7284386
+        ]
+      },
+      "id": "way/1423815457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424030147",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Inuguduru police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1245789,
+          16.1718804
+        ]
+      },
+      "id": "way/1424030147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1433978677",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2842262,
+          18.4862973
+        ]
+      },
+      "id": "way/1433978677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1433997909",
+        "amenity": "police",
+        "name": "police station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2483459,
+          17.747866
+        ]
+      },
+      "id": "way/1433997909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1454103872",
+        "amenity": "police",
+        "name": "Police Quaters",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7776224,
+          17.0071549
+        ]
+      },
+      "id": "way/1454103872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1455062417",
+        "amenity": "police",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3372529,
+          18.2818275
+        ]
+      },
+      "id": "way/1455062417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1455520434",
+        "amenity": "police",
+        "name": "Pachipenta Police Station",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1151337,
+          18.489177
+        ]
+      },
+      "id": "way/1455520434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1462395767",
+        "amenity": "police",
+        "building": "yes",
+        "name": "District Police Office, Rayachoty, Annamayya District",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7542576,
+          14.0913533
+        ]
+      },
+      "id": "way/1462395767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1469440647",
+        "amenity": "police",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7783311,
+          17.0069204
+        ]
+      },
+      "id": "way/1469440647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1499902501",
+        "amenity": "police",
+        "building": "yes",
+        "name": "nandigama Police station",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2845096,
+          16.7690438
+        ]
+      },
+      "id": "way/1499902501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1504290515",
+        "amenity": "police",
+        "building": "yes",
+        "name": "ITBPolice 53rd Bn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8187864,
+          13.6695686
+        ]
+      },
+      "id": "way/1504290515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1504290533",
+        "amenity": "police",
+        "building": "yes",
+        "name": "CRPF CIAT , KALIKIRI",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8138948,
+          13.6807468
+        ]
+      },
+      "id": "way/1504290533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1825168528",
+        "amenity": "police",
+        "name": "Police Station",
+        "name:kn": "ಆರಕ್ಷಕ ಠಾಣೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.355997,
+          15.935314
+        ]
+      },
+      "id": "node/1825168528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2040972160",
+        "amenity": "police",
+        "name": "Vetapalem Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3026372,
+          15.7823656
+        ]
+      },
+      "id": "node/2040972160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2332958460",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9904312,
+          17.0746367
+        ]
+      },
+      "id": "node/2332958460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2332958464",
+        "amenity": "police",
+        "name": "police quarters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9907364,
+          17.0748011
+        ]
+      },
+      "id": "node/2332958464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2333109139",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.453525,
+          16.2924294
+        ]
+      },
+      "id": "node/2333109139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352141024",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9819165,
+          14.4465603
+        ]
+      },
+      "id": "node/2352141024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2444399844",
+        "amenity": "police",
+        "name": "S.P. Bunglow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8264055,
+          14.4674176
+        ]
+      },
+      "id": "node/2444399844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2564054079",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8121045,
+          14.1641556
+        ]
+      },
+      "id": "node/2564054079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2712517224",
+        "amenity": "police",
+        "check_date": "2024-06-21",
+        "name": "APSP- 2 Betallion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0219723,
+          15.8263072
+        ]
+      },
+      "id": "node/2712517224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2744937097",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0029545,
+          16.577461
+        ]
+      },
+      "id": "node/2744937097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2744937098",
+        "amenity": "police",
+        "name": "Amalapuram II Town Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0003142,
+          16.578069
+        ]
+      },
+      "id": "node/2744937098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2845696130",
+        "amenity": "police",
+        "name": "II town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0938583,
+          13.2111193
+        ]
+      },
+      "id": "node/2845696130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402987",
+        "addr:full": "Beside Ii Town Police Station, Rajahmundry.",
+        "amenity": "police",
+        "description": "II Town",
+        "name": "II Town Central Crime Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7772132,
+          16.9916278
+        ]
+      },
+      "id": "node/3076402987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402988",
+        "addr:full": "Beside Tahasildar Office, Rajahmundry.",
+        "amenity": "police",
+        "name": "II Town Law And Order Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7771515,
+          16.9917549
+        ]
+      },
+      "id": "node/3076402988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402989",
+        "addr:full": "Main Road, Rajahmundry.",
+        "amenity": "police",
+        "description": "Law And Order",
+        "name": "I Town Law And Order Police Station",
+        "phone": "0883-2471033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.77106,
+          17.0009146
+        ]
+      },
+      "id": "node/3076402989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402990",
+        "addr:full": "Main Road, Rajahmundry.",
+        "amenity": "police",
+        "description": "Central Crime Station",
+        "name": "I Town Central Crime Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.771046,
+          17.0009288
+        ]
+      },
+      "id": "node/3076402990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402991",
+        "addr:full": "Opp. Swamy Theatre, Rajahmundry.",
+        "amenity": "police",
+        "description": "Traffic Police Station",
+        "name": "City Traffic Police Station & Circle Office",
+        "phone": "0883-2442953, 2468050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7788238,
+          17.0057103
+        ]
+      },
+      "id": "node/3076402991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402992",
+        "addr:full": "Opp. Swamy Theatre, Rajahmundry.",
+        "amenity": "police",
+        "description": "CCS",
+        "name": "III Town Central Crime Station",
+        "phone": "0883-2468050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7785657,
+          17.0057577
+        ]
+      },
+      "id": "node/3076402992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402993",
+        "addr:full": "Prakashnagar Round Prak, Danavaipeta, Rajahmundry.",
+        "amenity": "police",
+        "description": "Law & Order And CCS",
+        "name": "Prakasham Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7879635,
+          17.0070088
+        ]
+      },
+      "id": "node/3076402993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402994",
+        "amenity": "police",
+        "name": "Mahila Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7696775,
+          17.0090634
+        ]
+      },
+      "id": "node/3076402994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076402995",
+        "addr:full": "Sheshiyya Metta, Rajahmundry.",
+        "amenity": "police",
+        "name": "III Town Law And Order Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7697628,
+          17.0091544
+        ]
+      },
+      "id": "node/3076402995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3099828912",
+        "amenity": "police",
+        "name": "Alipiri Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4252717,
+          13.6483433
+        ]
+      },
+      "id": "node/3099828912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3391989378",
+        "amenity": "police",
+        "name": "Ulavapadu Railway Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0125345,
+          15.1608912
+        ]
+      },
+      "id": "node/3391989378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4445164494",
+        "addr:city": "Anantapur, Andhra Pradesh",
+        "addr:postcode": "515001",
+        "addr:street": "Indira Gandhi Nagar",
+        "amenity": "police",
+        "name": "Ananthapur 3 Town Police Station",
+        "phone": "8554-275877"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5981275,
+          14.6944081
+        ]
+      },
+      "id": "node/4445164494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446335160",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517416",
+        "addr:street": "Kurappali, Bangarupalam",
+        "amenity": "police",
+        "name": "Bangarupalyam Police Station",
+        "phone": "+91 8573280233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9145584,
+          13.1963861
+        ]
+      },
+      "id": "node/4446335160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446339540",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517101",
+        "addr:street": "Chandragiri",
+        "amenity": "police",
+        "name": "Chandragiri Police Station",
+        "phone": "+91 8772289020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3175846,
+          13.5888024
+        ]
+      },
+      "id": "node/4446339540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446339574",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517001",
+        "addr:street": "Chittoor - Ponnai Rd, Mittoor",
+        "amenity": "police",
+        "name": "Chittoor 1 Town Police Station",
+        "phone": "+91944079707"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1010473,
+          13.2167629
+        ]
+      },
+      "id": "node/4446339574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446344086",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517408",
+        "addr:street": "Madanapalli Rd, Gangavaram",
+        "amenity": "police",
+        "name": "Gaangavaram Police Station",
+        "phone": "+9194407 96735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7354104,
+          13.2195594
+        ]
+      },
+      "id": "node/4446344086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446350154",
+        "addr:city": "Chittoor",
+        "addr:housenumber": "SH 83",
+        "addr:postcode": "517132",
+        "addr:street": "Checkpost",
+        "amenity": "police",
+        "name": "Gudipala Police Station",
+        "phone": "+91 8572257733"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.133443,
+          13.0925681
+        ]
+      },
+      "id": "node/4446350154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446355946",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517213",
+        "addr:street": "K.V. Palli",
+        "amenity": "police",
+        "name": "K V Palli Police Station",
+        "phone": "+91 8584282633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9027464,
+          13.8069305
+        ]
+      },
+      "id": "node/4446355946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446359665",
+        "addr:city": "Chittoor",
+        "addr:housenumber": "NH-219",
+        "addr:postcode": "517425",
+        "addr:street": "Krishnagiri Palamaner Highway",
+        "amenity": "police",
+        "name": "Police Station",
+        "name:kn": "ಆರಕ್ಷಕ ಠಾಣೆ",
+        "phone": "+91 8570255133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3454026,
+          12.7496431
+        ]
+      },
+      "id": "node/4446359665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446363128",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517325",
+        "addr:street": "P and T Colony, Madanapalle",
+        "amenity": "police",
+        "name": "Madanapalli 1 Town Police Station",
+        "phone": "+91 8571222033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4969407,
+          13.5561231
+        ]
+      },
+      "id": "node/4446363128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446366045",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517325",
+        "addr:street": "CTM Road, Near RTC Bus Stand,P and T Colony, Madanapalle",
+        "amenity": "police",
+        "name": "Madanapalli 2 Town Police Station",
+        "phone": "+91 8571222109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5090533,
+          13.5579971
+        ]
+      },
+      "id": "node/4446366045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446366788",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517501",
+        "addr:street": "Balijagadda, Tirupathi",
+        "amenity": "police",
+        "name": "MR Palli Police Station",
+        "phone": "+91 8772289014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4189638,
+          13.6105795
+        ]
+      },
+      "id": "node/4446366788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446371449",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517590",
+        "addr:street": "Nagari",
+        "amenity": "police",
+        "name": "Nagiri Police Station",
+        "phone": "+91 8577235333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5854366,
+          13.3207159
+        ]
+      },
+      "id": "node/4446371449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446378147",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517581",
+        "addr:street": "Tirupati Rd, Narayanavanam",
+        "amenity": "police",
+        "name": "Narayanavanam Police Station",
+        "phone": "+91 8577221333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5884195,
+          13.4235342
+        ]
+      },
+      "id": "node/4446378147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446378266",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517214",
+        "addr:street": "Pileru",
+        "amenity": "police",
+        "name": "Piler Police Station",
+        "phone": "+91 8584244233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9357113,
+          13.6553381
+        ]
+      },
+      "id": "node/4446378266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446385554",
+        "addr:city": "Chittoor",
+        "addr:housenumber": "NH-205",
+        "addr:postcode": "517583",
+        "addr:street": "Puttur",
+        "amenity": "police",
+        "name": "J1 Police Station",
+        "phone": "+91 8577222333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5521821,
+          13.4393831
+        ]
+      },
+      "id": "node/4446385554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446402757",
+        "addr:city": "Guntur",
+        "addr:postcode": "522617",
+        "addr:street": "Muppala Road, Rompicharla",
+        "amenity": "police",
+        "name": "Rompicherlal Police Station",
+        "phone": "+91 8584288233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9087503,
+          16.2096542
+        ]
+      },
+      "id": "node/4446402757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446407453",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517503",
+        "addr:street": "Tiruchanur, Tirupathi",
+        "amenity": "police",
+        "name": "Tiruchanur Police Station",
+        "phone": "+91 8772289015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4489953,
+          13.607804
+        ]
+      },
+      "id": "node/4446407453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446412478",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517501",
+        "addr:street": "Bazar St, Nehru Nagar, Tirupati",
+        "amenity": "police",
+        "name": "Tirupathi West Police Station",
+        "phone": "+91 8772289008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4153527,
+          13.6348619
+        ]
+      },
+      "id": "node/4446412478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446414662",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517501",
+        "addr:street": "Mahathi Road",
+        "amenity": "police",
+        "name": "Tirupati Crime  Police Station",
+        "phone": "+91 8577289433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4135251,
+          13.6335909
+        ]
+      },
+      "id": "node/4446414662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446417200",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517501",
+        "addr:street": "Prakasam Road",
+        "amenity": "police",
+        "name": "Tirupati Urban SP Office",
+        "phone": "+91 8576275533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4123393,
+          13.6302056
+        ]
+      },
+      "id": "node/4446417200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446429045",
+        "addr:city": "Chittoor",
+        "addr:postcode": "517502",
+        "addr:street": "S.V.University Road, Tirupathi",
+        "amenity": "police",
+        "name": "SV University Police Station",
+        "phone": "+91 8577284433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4004217,
+          13.6259378
+        ]
+      },
+      "id": "node/4446429045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446440535",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "533406",
+        "addr:street": "Velampeta, Annavaram",
+        "amenity": "police",
+        "check_date": "2024-02-21",
+        "name": "Annavarm Police Station",
+        "phone": "+91 8868238100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.4057539,
+          17.2848462
+        ]
+      },
+      "id": "node/4446440535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446445867",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531001",
+        "addr:street": "Shardha Nagar, Anakapalle",
+        "amenity": "police",
+        "name": "Anakapalli Police Station",
+        "phone": "+91 9440796084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9884187,
+          17.6858653
+        ]
+      },
+      "id": "node/4446445867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446452868",
+        "addr:city": "Visakhapatnam",
+        "addr:postcode": "530027",
+        "addr:street": "Araku-Visakhapatnam Road, Near State Bank ATM, Gopalapatam, Nad Junction, Gopalapatnam, Dungalavanipalem,",
+        "amenity": "police",
+        "name": "Gopalapatnam Police Station",
+        "phone": "+91 891 252 0933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2257172,
+          17.7442772
+        ]
+      },
+      "id": "node/4446452868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446457746",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "530027",
+        "addr:street": "Visakhapatnam",
+        "amenity": "police",
+        "name": "Parawada Police Station",
+        "phone": "+91 8933229533 ,+91 9440796082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0909269,
+          17.6296866
+        ]
+      },
+      "id": "node/4446457746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446474838",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531036",
+        "addr:street": "Venkannapalem, Chodavaram,",
+        "amenity": "police",
+        "name": "Chodavaram Police Station",
+        "phone": "+91 8932245033 , +91 9440796090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9386716,
+          17.8257435
+        ]
+      },
+      "id": "node/4446474838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446489575",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531036",
+        "addr:street": "Butchayyapeta",
+        "amenity": "police",
+        "name": "Butchiyyapeta Police Station",
+        "phone": "+91 8932222633 , +91 9440904211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8749406,
+          17.790529
+        ]
+      },
+      "id": "node/4446489575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446499806",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "535145",
+        "addr:street": "Araku-Visakhapatnam Rd, Srungavarapu kota",
+        "amenity": "police",
+        "check_date": "2024-05-05",
+        "name": "S Kota Police Station",
+        "phone": "+91 8936249833 , +91 9440904223"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.138363,
+          18.1141818
+        ]
+      },
+      "id": "node/4446499806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446515370",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531084",
+        "addr:street": "Golugonda",
+        "amenity": "police",
+        "name": "Golugonda Police Station",
+        "phone": "+91 8932232433 , +91 9440904215"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.4681388,
+          17.679553
+        ]
+      },
+      "id": "node/4446515370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446521677",
+        "addr:city": "Rajahmundry",
+        "addr:housenumber": "NH16",
+        "addr:postcode": "533106",
+        "addr:street": "Padmavathi Nagar",
+        "amenity": "police",
+        "name": "Bommuru Police Station",
+        "phone": "+91 8935251266 , +91 9440904228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8087082,
+          17.0137329
+        ]
+      },
+      "id": "node/4446521677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446601364",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531031",
+        "addr:street": "Anakapalle Bypass, Kasimkota",
+        "amenity": "police",
+        "name": "Kasimkota Police Station",
+        "phone": "+91 8924220799 , +91 9440796088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9664591,
+          17.6695914
+        ]
+      },
+      "id": "node/4446601364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446995327",
+        "addr:city": "Vishakapatnam",
+        "addr:postcode": "531087",
+        "addr:street": "Koyyuru",
+        "amenity": "police",
+        "name": "Koyyuru Police Station",
+        "phone": "+91 8937238433 , +91 9440904241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2213589,
+          17.6485055
+        ]
+      },
+      "id": "node/4446995327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4446999233",
+        "addr:city": "Vishakapaynam",
+        "addr:postcode": "531081",
+        "addr:street": "Eluru By pass Road 2, Nakkapalli",
+        "amenity": "police",
+        "name": "NKP Police Station",
+        "phone": "+981 8931227433 , +91 9440796105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.7161181,
+          17.4089028
+        ]
+      },
+      "id": "node/4446999233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447538163",
+        "addr:city": "Anantapur, Andhra Pradesh",
+        "addr:postcode": "Old Town515001",
+        "addr:street": "Old Town, Anantapur",
+        "amenity": "police",
+        "name": "One town Police Station",
+        "phone": "08554-274033 , 9440796805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6085018,
+          14.6780743
+        ]
+      },
+      "id": "node/4447538163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4453113691",
+        "amenity": "police",
+        "name": "M.R palli Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4168514,
+          13.6158101
+        ]
+      },
+      "id": "node/4453113691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4798383408",
+        "amenity": "police",
+        "name": "Hiramandalam Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9497791,
+          18.6739408
+        ]
+      },
+      "id": "node/4798383408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5002329546",
+        "addr:street": "kothapatnam",
+        "amenity": "police",
+        "name": "Kothapatnam police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1597475,
+          15.4470183
+        ]
+      },
+      "id": "node/5002329546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5030744829",
+        "amenity": "police",
+        "name": "Arundalpet Police Station",
+        "name:te": "అరుండల్ పేట పోలీస్ స్టేషన్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4377261,
+          16.3039416
+        ]
+      },
+      "id": "node/5030744829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5030747432",
+        "amenity": "police",
+        "name": "Chebrole Police Station",
+        "name:te": "చేబ్రోలు పోలీస్ స్టేషన్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5245854,
+          16.2025985
+        ]
+      },
+      "id": "node/5030747432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5040215943",
+        "amenity": "police",
+        "name": "TUNI URBAN POLICE STATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5416401,
+          17.3586314
+        ]
+      },
+      "id": "node/5040215943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5127702505",
+        "amenity": "police",
+        "name": "Marine Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1790021,
+          16.1459776
+        ]
+      },
+      "id": "node/5127702505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5127779113",
+        "addr:city": "Machilipatnam",
+        "addr:postcode": "521002",
+        "amenity": "police",
+        "name": "Chilakalapudi Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1451734,
+          16.1908039
+        ]
+      },
+      "id": "node/5127779113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5151649321",
+        "amenity": "police",
+        "name": "F R O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4272358,
+          16.2976316
+        ]
+      },
+      "id": "node/5151649321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5308735969",
+        "addr:street": "pattabhipuram",
+        "amenity": "police",
+        "name": "Pattabhipuram police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.423819,
+          16.3052237
+        ]
+      },
+      "id": "node/5308735969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5446059921",
+        "addr:street": "Reddy Nagar, Narasaraopet, Andhra Pradesh 522601",
+        "amenity": "police",
+        "email": "saichowdary950531@gmail.com",
+        "name": "2 Town Police Station",
+        "phone": "086472 22333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.045045,
+          16.2385179
+        ]
+      },
+      "id": "node/5446059921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5922802620",
+        "amenity": "police",
+        "name": "Sri City Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0230418,
+          13.5597868
+        ]
+      },
+      "id": "node/5922802620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5923323714",
+        "amenity": "police",
+        "name": "Highway Patrol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5217956,
+          13.6455682
+        ]
+      },
+      "id": "node/5923323714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6248331357",
+        "amenity": "police",
+        "name": "Police Station",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3292635,
+          16.0732095
+        ]
+      },
+      "id": "node/6248331357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6393168128",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.564054,
+          17.035421
+        ]
+      },
+      "id": "node/6393168128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6395123385",
+        "amenity": "police",
+        "name": "esuguralla palli police base"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1773842,
+          17.7427395
+        ]
+      },
+      "id": "node/6395123385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6596130864",
+        "amenity": "police",
+        "designation": "lipsha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8973955,
+          18.2920517
+        ]
+      },
+      "id": "node/6596130864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804705372",
+        "amenity": "police",
+        "name": "Cyber Crime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3187815,
+          17.7213796
+        ]
+      },
+      "id": "node/6804705372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6828740925",
+        "addr:city": "visakhapatnam",
+        "addr:housenumber": "R655+X26, Pendurthi Araku Road, near Raithu Bazar, Chinnamushidiwada, Pendurthi, Visakhapatnam, Andhra Pradesh",
+        "addr:postcode": "531178",
+        "addr:street": "Pendurthi railway station road",
+        "amenity": "police",
+        "check_date": "2024-03-18",
+        "name": "Pendurthi Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.207571,
+          17.8099057
+        ]
+      },
+      "id": "node/6828740925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6829393635",
+        "amenity": "police",
+        "name": "Pamarru Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9579194,
+          16.3231409
+        ]
+      },
+      "id": "node/6829393635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008025337",
+        "amenity": "police",
+        "name": "Darsi police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6803751,
+          15.7699308
+        ]
+      },
+      "id": "node/7008025337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088071743",
+        "amenity": "police",
+        "name": "district police office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8096406,
+          17.0122305
+        ]
+      },
+      "id": "node/7088071743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088103686",
+        "amenity": "police",
+        "name": "district police office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8083881,
+          17.0159127
+        ]
+      },
+      "id": "node/7088103686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7108780885",
+        "amenity": "police",
+        "name": "District Police Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8104798,
+          17.0130179
+        ]
+      },
+      "id": "node/7108780885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7112472385",
+        "amenity": "police",
+        "name": "Tadepalligudem Town Police Station",
+        "opening_hours": "24/7",
+        "operator": "Go"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.527257,
+          16.814009
+        ]
+      },
+      "id": "node/7112472385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7234518631",
+        "amenity": "police",
+        "name": "Vemula Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3253251,
+          14.3716487
+        ]
+      },
+      "id": "node/7234518631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246549556",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4544831,
+          16.2929791
+        ]
+      },
+      "id": "node/7246549556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7438844167",
+        "addr:city": "Ranasthalam",
+        "addr:postcode": "532407",
+        "amenity": "police",
+        "name": "New Police Station",
+        "opening_hours": "24/7",
+        "operator": "Government of Andhra Pradesh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6893107,
+          18.2023188
+        ]
+      },
+      "id": "node/7438844167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7795993634",
+        "addr:district": "Krishna",
+        "addr:full": "Ibrahimpatnam",
+        "addr:postcode": "521456",
+        "amenity": "police",
+        "name": "Ibrahimpatnam PS",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5222991,
+          16.5903542
+        ]
+      },
+      "id": "node/7795993634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7939098214",
+        "amenity": "police",
+        "name": "Bhimavaram one town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5227067,
+          16.5419986
+        ]
+      },
+      "id": "node/7939098214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7947237095",
+        "amenity": "police",
+        "name": "Bhimavaram two town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5196303,
+          16.5433793
+        ]
+      },
+      "id": "node/7947237095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8118832365",
+        "amenity": "police",
+        "name": "RAJAM POLICE STATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6553222,
+          18.4489918
+        ]
+      },
+      "id": "node/8118832365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9869465457",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5475212,
+          15.9422617
+        ]
+      },
+      "id": "node/9869465457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9869465462",
+        "amenity": "police",
+        "name": "police quarters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5478309,
+          15.9422818
+        ]
+      },
+      "id": "node/9869465462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9885114245",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.460306,
+          16.5860168
+        ]
+      },
+      "id": "node/9885114245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9886600155",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6086692,
+          18.6876332
+        ]
+      },
+      "id": "node/9886600155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9886961525",
+        "addr:housenumber": "Opposite St.John's Em High School",
+        "addr:postcode": "522614",
+        "addr:street": "Nekarikallu - Gurazala Road",
+        "amenity": "police",
+        "name": "Police Station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7119596,
+          16.4338093
+        ]
+      },
+      "id": "node/9886961525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903926839",
+        "addr:city": "Srikakulam",
+        "addr:postcode": "532001",
+        "addr:street": "Old Bus Stand Road, Chinna Bharatham Colony",
+        "amenity": "police",
+        "name": "1 Town Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8964518,
+          18.2917985
+        ]
+      },
+      "id": "node/9903926839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903926840",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8981833,
+          18.2911699
+        ]
+      },
+      "id": "node/9903926840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903926859",
+        "amenity": "police",
+        "check_date": "2024-02-17",
+        "name": "2 Town Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8944028,
+          18.2958678
+        ]
+      },
+      "id": "node/9903926859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10171010676",
+        "amenity": "police",
+        "name": "1 town poliic station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8220399,
+          14.478227
+        ]
+      },
+      "id": "node/10171010676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10819097902",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8562956,
+          14.5605398
+        ]
+      },
+      "id": "node/10819097902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11104093377",
+        "amenity": "police",
+        "name": "Jaggampeta Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.057094,
+          17.173679
+        ]
+      },
+      "id": "node/11104093377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11117899794",
+        "amenity": "police",
+        "changing_table": "no",
+        "check_date": "2025-04-08",
+        "entrance": "yes",
+        "name": "Amruthalur Police Station",
+        "opening_hours": "24/7",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6624313,
+          16.1196456
+        ]
+      },
+      "id": "node/11117899794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11245062562",
+        "amenity": "police",
+        "name": "Police Station , Santhabommali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1991599,
+          18.5345304
+        ]
+      },
+      "id": "node/11245062562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11245062577",
+        "amenity": "police",
+        "name": "Police Station , Kotabommali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1458784,
+          18.5171968
+        ]
+      },
+      "id": "node/11245062577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11443016932",
+        "amenity": "police",
+        "name": "Police Station , Polaki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1062863,
+          18.3694842
+        ]
+      },
+      "id": "node/11443016932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11443016933",
+        "amenity": "police",
+        "name": "Police Quarters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1064893,
+          18.3692669
+        ]
+      },
+      "id": "node/11443016933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11479388924",
+        "amenity": "police",
+        "check_date": "2024-01-02",
+        "name": "Vijayawada city Police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6368446,
+          16.5037191
+        ]
+      },
+      "id": "node/11479388924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11573018975",
+        "amenity": "police",
+        "check_date": "2024-01-31",
+        "name": "Cyber Crime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6347707,
+          16.5088496
+        ]
+      },
+      "id": "node/11573018975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11573676381",
+        "amenity": "police",
+        "name": "Police Station, Sileru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0348021,
+          18.0518841
+        ]
+      },
+      "id": "node/11573676381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11577218791",
+        "amenity": "police",
+        "name": "Police Station, Krishna Lanka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6190522,
+          16.5094827
+        ]
+      },
+      "id": "node/11577218791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11585571316",
+        "amenity": "police",
+        "check_date": "2024-02-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5177622,
+          16.5132826
+        ]
+      },
+      "id": "node/11585571316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11647371247",
+        "amenity": "police",
+        "check_date": "2024-02-21",
+        "name": "Duvvada Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1660819,
+          17.6847886
+        ]
+      },
+      "id": "node/11647371247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11653010010",
+        "amenity": "police",
+        "check_date": "2024-02-22",
+        "name": "Traffic Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.620679,
+          16.4854707
+        ]
+      },
+      "id": "node/11653010010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11688050188",
+        "amenity": "police",
+        "name": "4th Town Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3052011,
+          17.7381018
+        ]
+      },
+      "id": "node/11688050188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11740884421",
+        "amenity": "police",
+        "check_date": "2024-03-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3567371,
+          17.786154
+        ]
+      },
+      "id": "node/11740884421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11749476609",
+        "amenity": "police",
+        "name": "Police Training Academy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2700834,
+          13.6482669
+        ]
+      },
+      "id": "node/11749476609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11885489277",
+        "amenity": "police",
+        "check_date": "2024-05-07",
+        "name": "Gokavaram Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8501155,
+          17.2587602
+        ]
+      },
+      "id": "node/11885489277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11885669244",
+        "amenity": "police",
+        "name": "Police station, Komarada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4628407,
+          18.9054664
+        ]
+      },
+      "id": "node/11885669244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11886795043",
+        "amenity": "police",
+        "check_date": "2024-05-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7152069,
+          17.5965786
+        ]
+      },
+      "id": "node/11886795043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891752439",
+        "amenity": "police",
+        "check_date": "2024-05-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3948212,
+          17.7448193
+        ]
+      },
+      "id": "node/11891752439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891801532",
+        "amenity": "police",
+        "check_date": "2024-05-08",
+        "name": "Gangavaram Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9119651,
+          17.4223422
+        ]
+      },
+      "id": "node/11891801532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891802877",
+        "amenity": "police",
+        "check_date": "2024-05-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0214557,
+          17.4782863
+        ]
+      },
+      "id": "node/11891802877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891802879",
+        "amenity": "police",
+        "check_date": "2024-05-08",
+        "name": "Addateegala Old Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0218571,
+          17.4785138
+        ]
+      },
+      "id": "node/11891802879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11934101303",
+        "amenity": "police",
+        "name": "Denkada Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4597116,
+          18.07853
+        ]
+      },
+      "id": "node/11934101303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993365462",
+        "amenity": "police",
+        "check_date": "2024-06-20",
+        "fixme:type": "police station",
+        "internet_access": "no",
+        "name": "Police Station",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4712283,
+          15.9066468
+        ]
+      },
+      "id": "node/11993365462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993424980",
+        "amenity": "police",
+        "check_date": "2024-06-20",
+        "fixme:type": "police station",
+        "name": "New Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.471182,
+          15.9061307
+        ]
+      },
+      "id": "node/11993424980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11998496228",
+        "amenity": "police",
+        "check_date": "2024-06-21",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8423526,
+          16.762911
+        ]
+      },
+      "id": "node/11998496228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078199191",
+        "amenity": "police",
+        "name": "Suryalanka Marine Coastal Security Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5085848,
+          15.8417208
+        ]
+      },
+      "id": "node/12078199191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12123861817",
+        "addr:city": "Machilipatnam",
+        "addr:district": "Krishna",
+        "addr:postcode": "521001",
+        "addr:street": "Rajagari Centre",
+        "amenity": "police",
+        "name": "Arpet Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1322701,
+          16.1831271
+        ]
+      },
+      "id": "node/12123861817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12171302681",
+        "amenity": "police",
+        "name": "Korukonda Police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8270122,
+          17.170552
+        ]
+      },
+      "id": "node/12171302681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12171687356",
+        "amenity": "police",
+        "name": "DSP Northzone office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8304574,
+          17.1630923
+        ]
+      },
+      "id": "node/12171687356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12193014767",
+        "amenity": "police",
+        "check_date": "2025-07-10",
+        "name": "Kothapeta Police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6110123,
+          16.5263972
+        ]
+      },
+      "id": "node/12193014767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12291719195",
+        "amenity": "police",
+        "check_date": "2024-10-26",
+        "name": "Kothavalsa Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1903751,
+          17.9013382
+        ]
+      },
+      "id": "node/12291719195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12306462898",
+        "amenity": "police",
+        "check_date": "2024-11-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5481676,
+          18.2900603
+        ]
+      },
+      "id": "node/12306462898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596194212",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.2360457,
+          16.9740561
+        ]
+      },
+      "id": "node/12596194212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596325518",
+        "addr:city": "tadepalligudem",
+        "addr:district": "west godavari",
+        "addr:postcode": "534101",
+        "addr:street": "Narsapuram - Aswaraopeta Road",
+        "amenity": "police",
+        "name": "tadepalligudem town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.527257,
+          16.8140295
+        ]
+      },
+      "id": "node/12596325518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12837010587",
+        "amenity": "police",
+        "check_date": "2025-05-14",
+        "name": "Malkapuram Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2582017,
+          17.6875376
+        ]
+      },
+      "id": "node/12837010587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12887831697",
+        "addr:city": "Gollapalem",
+        "addr:district": "East Godavari",
+        "addr:postcode": "533468",
+        "addr:street": "Main Road",
+        "amenity": "police",
+        "name": "Police Station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.1693175,
+          16.8543733
+        ]
+      },
+      "id": "node/12887831697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12892352602",
+        "amenity": "police",
+        "check_date": "2025-06-06",
+        "name": "Anandapuram Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3719104,
+          17.8931748
+        ]
+      },
+      "id": "node/12892352602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12954702919",
+        "amenity": "police",
+        "name": "P.M. Palem Traffic Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3526684,
+          17.7996523
+        ]
+      },
+      "id": "node/12954702919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993650565",
+        "amenity": "police",
+        "check_date": "2025-07-11",
+        "name": "Crime Investigation Department"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.678097,
+          16.4915075
+        ]
+      },
+      "id": "node/12993650565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13006798976",
+        "amenity": "police",
+        "check_date": "2025-07-17",
+        "name": "Ajit Singh Nagar Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6290364,
+          16.5360485
+        ]
+      },
+      "id": "node/13006798976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13086490141",
+        "amenity": "police",
+        "name": "police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.81065,
+          16.6025385
+        ]
+      },
+      "id": "node/13086490141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13179809551",
+        "amenity": "police",
+        "name": "Ramabhadrapuram Police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2842265,
+          18.4863154
+        ]
+      },
+      "id": "node/13179809551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13182355057",
+        "amenity": "police",
+        "name": "1 Town Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.409531,
+          18.1151141
+        ]
+      },
+      "id": "node/13182355057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13253830266",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3868375,
+          15.4783171
+        ]
+      },
+      "id": "node/13253830266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13260891029",
+        "amenity": "police",
+        "name": "II Town police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2758971,
+          15.6220466
+        ]
+      },
+      "id": "node/13260891029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13335581075",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.7789014,
+          17.0073301
+        ]
+      },
+      "id": "node/13335581075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13436982229",
+        "amenity": "police",
+        "name": "Police Station, Nagalapuram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.7947619,
+          13.3877361
+        ]
+      },
+      "id": "node/13436982229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13456282922",
+        "amenity": "police",
+        "check_date": "2026-01-13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6902176,
+          18.2021704
+        ]
+      },
+      "id": "node/13456282922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13518962992",
+        "amenity": "police",
+        "name": "Ponnur police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.549673,
+          16.0726263
+        ]
+      },
+      "id": "node/13518962992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13543686111",
+        "amenity": "police",
+        "check_date": "2026-02-10",
+        "name": "Sabbavaram Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.1258107,
+          17.7912715
+        ]
+      },
+      "id": "node/13543686111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13626369415",
+        "amenity": "police",
+        "name": "Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.6874563,
+          17.5601432
+        ]
+      },
+      "id": "node/13626369415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13734760193",
+        "addr:city": "nandigama",
+        "addr:district": "NTR",
+        "addr:housenumber": "nearby kvr collage",
+        "addr:postcode": "521185",
+        "addr:street": "CM Road",
+        "amenity": "police",
+        "name": "nandigama police station",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2844946,
+          16.7690358
+        ]
+      },
+      "id": "node/13734760193"
+    }
+  ]
+}

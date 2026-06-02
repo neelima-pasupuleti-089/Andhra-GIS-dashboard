@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-30T10:27:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11701332",
+        "aerodrome:type": "public;civil",
+        "aeroway": "aerodrome",
+        "iata": "VTZ",
+        "icao": "VOVZ",
+        "name": "Visakhapatnam International Airport",
+        "name:es": "Aeropuerto de Visakhapatnam",
+        "name:hi": "विंिशाखापत्तनम अंतर्राष्ट्रीय हवाई अड्डा",
+        "name:kn": "ವಿಶಾಖಪಟ್ಟಣ ಇಂಟರ್ ನ್ಯಾಶನಲ್ ಏರ್ ಪೋರ್ಟ್",
+        "name:ru": "Висакхапатнам аэропорт",
+        "name:te": "విశాఖపట్నం అంతర్జాతీయ విమానాశ్రయం",
+        "name:uk": "Аеропорт Вісакхапатнам",
+        "type": "multipolygon",
+        "website": "https://www.vizagairport.in/",
+        "wikidata": "Q2247541",
+        "wikipedia": "en:Visakhapatnam Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2353393,
+          17.7216667
+        ]
+      },
+      "id": "relation/11701332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/17250056",
+        "aeroway": "aerodrome",
+        "alt_name": "Orvakal Airport",
+        "iata": "KJB",
+        "icao": "VOKU",
+        "name": "Kurnool Airport",
+        "official_name": "Uyyalawada Narasimha Reddy Airport",
+        "official_name:etymology:wikidata": "Q12991884",
+        "type": "multipolygon",
+        "wikidata": "Q29017871",
+        "wikipedia": "en:Kurnool Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.168518,
+          15.715503
+        ]
+      },
+      "id": "relation/17250056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82611242",
+        "aerodrome:type": "public",
+        "aeroway": "aerodrome",
+        "ele": "107",
+        "iata": "TIR",
+        "icao": "VOTP",
+        "name": "Tirupati Airport",
+        "name:de": "Flughafen Tirupati",
+        "name:es": "Aeropuerto de Tirupati",
+        "name:fa": "فرودگاه تیروپاتی",
+        "name:te": "తిరుపతి విమానాశ్రయము",
+        "name:ur": "تروپتی ہوائی اڈا",
+        "operator": "Airports Authority of India",
+        "ref": "TIR",
+        "source": "wikipedia",
+        "wikidata": "Q1321723",
+        "wikipedia": "en:Tirupati Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5415119,
+          13.6326216
+        ]
+      },
+      "id": "way/82611242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101362695",
+        "aeroway": "aerodrome",
+        "icao": "VONS",
+        "name": "Nagarjuna Sagar",
+        "name:te": "నాగార్జునసాగర్",
+        "wikidata": "Q12694095",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3183172,
+          16.5417106
+        ]
+      },
+      "id": "way/101362695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135670403",
+        "aeroway": "aerodrome",
+        "closest_town": "Rajahmundry",
+        "iata": "RJA",
+        "icao": "VORY",
+        "name": "Rajahmundry Airport",
+        "name:te": "రాజమండ్రి విమానాశ్రయం",
+        "wikidata": "Q1931291",
+        "wikipedia": "en:Rajahmundry Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8110245,
+          17.1051407
+        ]
+      },
+      "id": "way/135670403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178105923",
+        "aerodrome:type": "public",
+        "aeroway": "aerodrome",
+        "closest_town": "Vijayawada",
+        "ele": "25",
+        "iata": "VGA",
+        "icao": "VOBZ",
+        "name": "Vijayawada Airport",
+        "name:en": "Vijayawada Airport",
+        "name:te": "విజయవాడ విమానాశ్రయం",
+        "operator": "Airports Authority of India",
+        "source": "wikipedia",
+        "wikidata": "Q432474",
+        "wikipedia": "en:Vijayawada Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8058649,
+          16.5313626
+        ]
+      },
+      "id": "way/178105923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/195795400",
+        "aeroway": "aerodrome",
+        "closest_town": "Puttaparthi",
+        "ele": "475",
+        "iata": "PUT",
+        "icao": "VOPN",
+        "name": "Sri Sathya Sai Airport",
+        "name:etymology:wikidata": "Q483931",
+        "name:te": "శ్రీ సత్య సాయి విమానాశ్రయం",
+        "operator": "Airports Authority of India",
+        "source": "wikipedia",
+        "type": "public",
+        "wikidata": "Q1939560",
+        "wikipedia": "en:Sri Sathya Sai Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7916266,
+          14.1497362
+        ]
+      },
+      "id": "way/195795400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/504971900",
+        "aeroway": "aerodrome",
+        "name": "Heliport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.291916,
+          16.7433257
+        ]
+      },
+      "id": "way/504971900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/824636558",
+        "aerodrome:type": "public",
+        "aeroway": "aerodrome",
+        "ele": "142",
+        "iata": "CDP",
+        "icao": "VOCP",
+        "name": "Kadapa Airport",
+        "name:ar": "مطار كدبا",
+        "name:de": "Flughafen Kadapa",
+        "name:es": "Aeropuerto de Kadapa",
+        "name:fa": "فرودگاه کوداپاه",
+        "name:ur": "کڈپہ ہوائی اڈہ",
+        "operator": "Airports Authority of India",
+        "wikidata": "Q1657734",
+        "wikipedia": "en:Kadapa Airport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7686363,
+          14.5156135
+        ]
+      },
+      "id": "way/824636558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1433987827",
+        "aeroway": "aerodrome",
+        "check_date": "2025-09-29",
+        "landuse": "construction",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.5054801,
+          17.976359
+        ]
+      },
+      "id": "way/1433987827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1433987870",
+        "aeroway": "aerodrome",
+        "name": "Bhogapuram Heliport",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4799346,
+          17.9972127
+        ]
+      },
+      "id": "way/1433987870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12994101236",
+        "aeroway": "aerodrome",
+        "name": "Gannavaram Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7856839,
+          16.5272362
+        ]
+      },
+      "id": "node/12994101236"
+    }
+  ]
+}

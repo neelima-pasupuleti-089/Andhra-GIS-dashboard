@@ -1,0 +1,3680 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-30T10:48:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11337533",
+        "historic": "fort",
+        "name": "Gurramkonda Fort",
+        "type": "multipolygon",
+        "wikidata": "Q31495784",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.586156,
+          13.7744389
+        ]
+      },
+      "id": "relation/11337533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20002612",
+        "access": "yes",
+        "building": "yes",
+        "historic": "fort",
+        "monument": "yes",
+        "name": "Bandar Fort",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1492914,
+          16.1510218
+        ]
+      },
+      "id": "relation/20002612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/144524995",
+        "historic": "archaeological_site",
+        "name": "Nagarjunakonda",
+        "name:te": "నాగార్జునకొండ",
+        "wikidata": "Q749108",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.240066,
+          16.5223263
+        ]
+      },
+      "id": "way/144524995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/170618228",
+        "addr:city": "Visakhapatnam",
+        "addr:district": "Andhra Pradesh",
+        "air_conditioning": "yes",
+        "historic": "ship",
+        "museum": "navy",
+        "name": "INS Kursura Museum",
+        "opening_hours": "Mo-Sa 14:00-20:30",
+        "ref": "S20",
+        "ship:type": "submarine",
+        "start_date": "2002",
+        "tourism": "attraction",
+        "wheelchair": "no",
+        "wikidata": "Q11706566",
+        "wikipedia": "en:INS Kursura (S20)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3301259,
+          17.7172764
+        ]
+      },
+      "id": "way/170618228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223595125",
+        "height": "41",
+        "historic": "monument",
+        "name": "Veera Abhaya Anjaneya Hanuman Swami",
+        "wikidata": "Q7918127",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4233421,
+          16.6469393
+        ]
+      },
+      "id": "way/223595125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/224491094",
+        "historic": "memorial",
+        "memorial": "war_memorial",
+        "name": "Victory at Sea 1971",
+        "tourism": "attraction",
+        "wikidata": "Q38479267",
+        "wikipedia": "en:Victory at Sea Memorial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.332098,
+          17.7186432
+        ]
+      },
+      "id": "way/224491094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/243711625",
+        "historic": "fort",
+        "name": "Chandragiri Fort",
+        "wheelchair": "no",
+        "wikidata": "Q15079234",
+        "wikimedia_commons": "Category:Chandragiri Fort, Andhra Pradesh",
+        "wikipedia": "en:Chandragiri Fort, Andhra Pradesh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3052847,
+          13.5830317
+        ]
+      },
+      "id": "node/243711625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314055656",
+        "historic": "monument",
+        "name": "Gurujada Appa Rao's House",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4119644,
+          18.1121423
+        ]
+      },
+      "id": "way/314055656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322960645",
+        "historic": "castle",
+        "name": "Gooty Fort",
+        "wikidata": "Q15698570",
+        "wikimedia_commons": "Category:Gooty Fort",
+        "wikipedia": "en:Gooty Fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6509285,
+          15.113676
+        ]
+      },
+      "id": "way/322960645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/335955385",
+        "building": "historic",
+        "historic": "ruins",
+        "name": "Mahachaitya stupa",
+        "name:te": "మహాచైత్య స్తూప",
+        "tourism": "attraction",
+        "wikidata": "Q17351111",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3565181,
+          16.5757026
+        ]
+      },
+      "id": "way/335955385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355264246",
+        "historic": "monument",
+        "name": "kothapeta mandapam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4127116,
+          18.1229404
+        ]
+      },
+      "id": "way/355264246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/394164526",
+        "boundary": "protected_area",
+        "historic": "archaeological_site",
+        "name": "Jwalapuram Paleolithic Site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1492603,
+          15.3345625
+        ]
+      },
+      "id": "way/394164526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396856867",
+        "area": "yes",
+        "historic": "ruins",
+        "name": "Jagtipadu Buddhist Remains",
+        "wikimedia_commons": "Category:Jagatipadu Buddhist site in Dubbakavanipeta",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0727191,
+          18.3504695
+        ]
+      },
+      "id": "way/396856867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/455985602",
+        "building": "mosque",
+        "historic": "archaeological_site",
+        "name": "Jama Masjid",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2848587,
+          14.8157505
+        ]
+      },
+      "id": "way/455985602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/455988047",
+        "building": "temple",
+        "historic": "archaeological_site",
+        "name": "Ranganayakulu Temple",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2849924,
+          14.8168361
+        ]
+      },
+      "id": "way/455988047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/455990174",
+        "area": "yes",
+        "building": "temple",
+        "historic": "archaeological_site",
+        "name": "Madhavaraya Temple",
+        "wikidata": "Q17351044",
+        "wikipedia": "en:Madhavaraya Temple, Gandikota",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2840437,
+          14.8132661
+        ]
+      },
+      "id": "way/455990174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/456834442",
+        "amenity": "place_of_worship",
+        "historic": "archaeological_site",
+        "name": "Bojjannakonda Sankaram Monastery",
+        "religion": "buddhist",
+        "ruins": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0160815,
+          17.7102481
+        ]
+      },
+      "id": "way/456834442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/467590906",
+        "building": "yes",
+        "historic": "castle",
+        "name": "Muttayala Fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0722654,
+          16.8198489
+        ]
+      },
+      "id": "way/467590906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497204232",
+        "alt_name": "Sidhout Fort",
+        "castle_type": "defensive",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Siddavatam Fort",
+        "start_date": "1303",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9678343,
+          14.4662069
+        ]
+      },
+      "id": "way/497204232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/527502805",
+        "access": "yes",
+        "archaeological_site": "necropolis",
+        "historic": "archaeological_site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.3566583,
+          16.5755031
+        ]
+      },
+      "id": "way/527502805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613344265",
+        "historic": "memorial",
+        "memorial": "building",
+        "name": "Pulla reddy, Narayanamma memorial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0572453,
+          15.7742075
+        ]
+      },
+      "id": "way/613344265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617360757",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "fortress",
+        "description": "famous in kurnool",
+        "historic": "castle",
+        "historic:civilization": "Vijanagara_Empire",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Konda_Reddy_Fort_Kurnool.jpg",
+        "name": "Konda Reddy Fort",
+        "old_name": "Kondareddy Burj",
+        "wikidata": "Q17986877",
+        "wikipedia": "en:Konda Reddy Fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0486546,
+          15.8337902
+        ]
+      },
+      "id": "way/617360757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/625330761",
+        "historic": "memorial",
+        "inscription": "kotla railway station",
+        "material": "stone",
+        "memorial": "obelisk",
+        "name": "Sri T G Venkatesh",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0373159,
+          15.8241881
+        ]
+      },
+      "id": "way/625330761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/629437009",
+        "historic": "memorial",
+        "memorial": "obelisk",
+        "name": "Gandhi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0403275,
+          15.8290534
+        ]
+      },
+      "id": "way/629437009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/656051859",
+        "building": "yes",
+        "historic": "monument",
+        "name": "Maha Chaitya",
+        "name:te": "మహా చైత్య",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2392617,
+          16.5203132
+        ]
+      },
+      "id": "way/656051859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/732575043",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "historic": "ruins",
+        "name": "Chandavaram buddhist site",
+        "name:te": "చందవరం బౌద్ధారామం",
+        "religion": "buddhist",
+        "ruins": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4277007,
+          15.933216
+        ]
+      },
+      "id": "way/732575043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742784121",
+        "historic": "memorial",
+        "memorial": "yes",
+        "name": "Abdul Wahab Gumbaj",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0465582,
+          15.8272817
+        ]
+      },
+      "id": "way/742784121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/829054243",
+        "building": "yes",
+        "historic": "pillory",
+        "name": "Tomb of Nawab Mir Raza Ali Khan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5819716,
+          13.7728408
+        ]
+      },
+      "id": "way/829054243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/829085381",
+        "access": "yes",
+        "building": "loard siva ramullakota temple",
+        "historic": "fort",
+        "name": "Ramullakota Temple",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9457825,
+          15.2393365
+        ]
+      },
+      "id": "way/829085381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942406069",
+        "historic": "fort",
+        "name": "Bobbili Fort",
+        "wikidata": "Q24529745",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3577401,
+          18.5748047
+        ]
+      },
+      "id": "way/942406069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1024333331",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2687849,
+          13.9445373
+        ]
+      },
+      "id": "way/1024333331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1024421931",
+        "castle_type": "palace",
+        "historic": "castle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5802879,
+          13.9583212
+        ]
+      },
+      "id": "way/1024421931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066683872",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Raja Mahal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3047567,
+          13.582468
+        ]
+      },
+      "id": "way/1066683872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066689356",
+        "building": "yes",
+        "historic": "city_gate",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3019325,
+          13.581348
+        ]
+      },
+      "id": "way/1066689356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066689358",
+        "building": "yes",
+        "historic": "city_gate",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3061637,
+          13.5823504
+        ]
+      },
+      "id": "way/1066689358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066689359",
+        "building": "yes",
+        "historic": "city_gate",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3129409,
+          13.5830568
+        ]
+      },
+      "id": "way/1066689359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1088318134",
+        "area": "yes",
+        "historic": "ruins",
+        "name": "Thotlakonda Buddhist Complex",
+        "religion": "buddhist",
+        "wikidata": "Q7796914",
+        "wikipedia": "en:Thotlakonda",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4092174,
+          17.8285234
+        ]
+      },
+      "id": "way/1088318134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1098607210",
+        "historic": "ruins",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2849393,
+          18.2581292
+        ]
+      },
+      "id": "way/1098607210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1125088653",
+        "aircraft:type": "military",
+        "historic": "aircraft",
+        "model": "TU-142",
+        "model:wikidata": "Q616426",
+        "tourism": "attraction",
+        "wikimedia_commons": "Category:TU-142_Aircraft_Museum,_Visakhapatnam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3299436,
+          17.7181081
+        ]
+      },
+      "id": "way/1125088653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152231839",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3148174,
+          14.3339135
+        ]
+      },
+      "id": "way/1152231839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152231846",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1813547,
+          14.3345162
+        ]
+      },
+      "id": "way/1152231846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152237330",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9698999,
+          14.268835
+        ]
+      },
+      "id": "way/1152237330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152238992",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.738173,
+          14.6372476
+        ]
+      },
+      "id": "way/1152238992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152238994",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8554871,
+          14.5623048
+        ]
+      },
+      "id": "way/1152238994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152242647",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7434161,
+          15.2352497
+        ]
+      },
+      "id": "way/1152242647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152242651",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5946413,
+          15.3026431
+        ]
+      },
+      "id": "way/1152242651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152242661",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3917395,
+          14.9910159
+        ]
+      },
+      "id": "way/1152242661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1152518617",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1022278,
+          13.9740605
+        ]
+      },
+      "id": "way/1152518617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1230527829",
+        "historic": "fort",
+        "name": "Rapur Fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5315864,
+          14.1981393
+        ]
+      },
+      "id": "way/1230527829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232634677",
+        "barrier": "fence",
+        "building": "historic",
+        "historic": "archaeological_site",
+        "name": "Aduru Buddha Stupa",
+        "ruins": "yes",
+        "tourism": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.9546845,
+          16.4785426
+        ]
+      },
+      "id": "way/1232634677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1234479694",
+        "access": "yes",
+        "building": "yes",
+        "historic": "fort",
+        "name": "Kondapalli Fort",
+        "name:te": "కొండపల్లి కోట",
+        "wikidata": "Q6428950",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5303918,
+          16.6250548
+        ]
+      },
+      "id": "way/1234479694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1244177136",
+        "access": "permissive",
+        "archaeological_site": "settlement",
+        "historic": "archaeological_site",
+        "historic:civilization": "iron-age",
+        "name": "Buddhist Monastery Ruins",
+        "name:te": "గురుబక్తులకొండ బౌద్ధ స్తూపం",
+        "wikidata": "Q18171066",
+        "wikimedia_commons": "Category:Ruined_Buddhist_Monastery_at_Gurubhaktulakonda",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4867216,
+          18.1761972
+        ]
+      },
+      "id": "way/1244177136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1244177153",
+        "historic": "archaeological_site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4754982,
+          18.1767696
+        ]
+      },
+      "id": "way/1244177153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1245207245",
+        "building": "yes",
+        "historic": "tomb",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5246451,
+          17.0105884
+        ]
+      },
+      "id": "way/1245207245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1245207246",
+        "building": "yes",
+        "historic": "tomb",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5246707,
+          17.0106295
+        ]
+      },
+      "id": "way/1245207246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1247322360",
+        "historic": "ruins",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1842938,
+          16.1748048
+        ]
+      },
+      "id": "way/1247322360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1247322369",
+        "historic": "fort",
+        "name": "Kondavidu Kota",
+        "ruins": "yes",
+        "wikidata": "Q3764606",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2606952,
+          16.2503732
+        ]
+      },
+      "id": "way/1247322369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1247336002",
+        "historic": "fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9699921,
+          16.6471395
+        ]
+      },
+      "id": "way/1247336002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1247336003",
+        "historic": "fort",
+        "name": "Bellamkonda Fort",
+        "wikidata": "Q31495788",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0154232,
+          16.5057027
+        ]
+      },
+      "id": "way/1247336003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1265495159",
+        "building": "yes",
+        "building:levels": "4",
+        "historic": "building",
+        "name": "Clock Tower",
+        "name:te": "ఘంట స్తంభం",
+        "start_date": "1885",
+        "tower:type": "clock_tower",
+        "wikidata": "Q130294404",
+        "wikimedia_commons": "Category:Ganta Stambham",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4094732,
+          18.1159932
+        ]
+      },
+      "id": "way/1265495159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290046888",
+        "building": "yes",
+        "historic": "fort",
+        "name": "Andra Fort",
+        "wikidata": "Q137053641",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2024594,
+          18.3467412
+        ]
+      },
+      "id": "way/1290046888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1292312055",
+        "building": "yes",
+        "historic": "manor",
+        "name": "manor house",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9746994,
+          15.8044453
+        ]
+      },
+      "id": "way/1292312055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1303741718",
+        "historic": "archaeological_site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2789466,
+          16.5044469
+        ]
+      },
+      "id": "way/1303741718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1303741720",
+        "historic": "archaeological_site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2795857,
+          16.5027044
+        ]
+      },
+      "id": "way/1303741720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304218388",
+        "historic": "memorial",
+        "name": "Dr. YSR Smruthi Vanam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5832007,
+          15.8088296
+        ]
+      },
+      "id": "way/1304218388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304980636",
+        "historic": "archaeological_site",
+        "name": "Undavalli Cave Temple",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5818359,
+          16.4966713
+        ]
+      },
+      "id": "way/1304980636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1330878978",
+        "building": "yes",
+        "historic": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8372306,
+          16.2461456
+        ]
+      },
+      "id": "way/1330878978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1349559042",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Ranamandala Mandapam",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2761585,
+          15.6419941
+        ]
+      },
+      "id": "way/1349559042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392718299",
+        "historic": "monument",
+        "name": "Alluri Sitharama Raju",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4547102,
+          17.8917592
+        ]
+      },
+      "id": "way/1392718299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392718300",
+        "historic": "monument",
+        "name": "Dutch Empire Monument",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4544935,
+          17.891947
+        ]
+      },
+      "id": "way/1392718300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1419133328",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1488991,
+          16.1504019
+        ]
+      },
+      "id": "way/1419133328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1419133329",
+        "abandoned": "building",
+        "building": "yes",
+        "historic": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1483626,
+          16.1497579
+        ]
+      },
+      "id": "way/1419133329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1419133330",
+        "abandoned": "yes",
+        "area": "yes",
+        "historic": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1484162,
+          16.1498796
+        ]
+      },
+      "id": "way/1419133330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1424624379",
+        "area": "yes",
+        "historic": "salihundam_historical_site",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0313335,
+          18.3341828
+        ]
+      },
+      "id": "way/1424624379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1444673178",
+        "building": "yes",
+        "historic": "city_gate",
+        "name": "Gateway of Amaravathi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2363622,
+          16.2454065
+        ]
+      },
+      "id": "way/1444673178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1449951498",
+        "aircraft:type": "airliner",
+        "historic": "aircraft",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6671163,
+          13.9653546
+        ]
+      },
+      "id": "way/1449951498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1454231606",
+        "historic": "archaeological_site",
+        "name": "Durga Bhairavakonda",
+        "wikidata": "Q18171065",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3225391,
+          18.1745913
+        ]
+      },
+      "id": "way/1454231606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1475049319",
+        "historic": "memorial",
+        "name": "Ac Subba Reddy Stature"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9831898,
+          14.4557957
+        ]
+      },
+      "id": "node/1475049319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1475049603",
+        "historic": "memorial",
+        "name": "Puchalapalli Sundraiah Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9855743,
+          14.4554295
+        ]
+      },
+      "id": "node/1475049603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1483677778",
+        "building": "yes",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Kuppam Palace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3397848,
+          12.7504085
+        ]
+      },
+      "id": "way/1483677778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1486442176",
+        "building": "yes",
+        "historic": "fort",
+        "name": "Madugula Fort",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8149964,
+          17.9143304
+        ]
+      },
+      "id": "way/1486442176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113056",
+        "area": "yes",
+        "historic": "ruins",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2867068,
+          14.8155531
+        ]
+      },
+      "id": "way/1501113056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113059",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "early_medieval",
+        "name": "King house of fort",
+        "ruins": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.282066,
+          14.8148092
+        ]
+      },
+      "id": "way/1501113059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113060",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "early_medieval",
+        "name": "Rani Mahal of gandikota fort",
+        "ruins": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2818838,
+          14.8165957
+        ]
+      },
+      "id": "way/1501113060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113061",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "early_medieval",
+        "name": "Gun Foundry",
+        "ruins": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2802116,
+          14.8176316
+        ]
+      },
+      "id": "way/1501113061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113062",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "early_medieval",
+        "ruins": "wall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2801496,
+          14.8171271
+        ]
+      },
+      "id": "way/1501113062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1501113064",
+        "area": "yes",
+        "historic": "ruins",
+        "historic:civilization": "early_medieval",
+        "name": "Ancient Buddhist Stupa Tarang-1",
+        "ruins": "building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2778604,
+          14.8195938
+        ]
+      },
+      "id": "way/1501113064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1636851963",
+        "designation": "War Memorial",
+        "historic": "monument",
+        "name": "Bobilli Yudastambam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3697696,
+          18.5781874
+        ]
+      },
+      "id": "node/1636851963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1722813358",
+        "historic": "archaeological_site",
+        "name": "Archaelogical Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9734379,
+          14.4371169
+        ]
+      },
+      "id": "node/1722813358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1857583065",
+        "historic": "memorial",
+        "name": "Y.S.R Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6401818,
+          16.1958076
+        ]
+      },
+      "id": "node/1857583065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2333123125",
+        "historic": "memorial",
+        "name": "Alluri Seetharamaraju Statue",
+        "name:te": "అల్లూరి సీతారామరాజు"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3356574,
+          17.7217259
+        ]
+      },
+      "id": "node/2333123125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2668929237",
+        "addr:city": "Kavuru Village",
+        "addr:country": "IN",
+        "addr:district": "Gunturu",
+        "addr:state": "Andhra Pradesh",
+        "historic": "memorial",
+        "name": "Gandhi memorial Pillars, Kavuru",
+        "name:te": "గాంధీ స్మారక స్థూపాలు, కావూరు"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6565047,
+          16.04023
+        ]
+      },
+      "id": "node/2668929237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2708542723",
+        "historic": "monument",
+        "name": "K. Vijaya Bhaskar Reddy Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0450924,
+          15.8318338
+        ]
+      },
+      "id": "node/2708542723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2712514747",
+        "historic": "monument",
+        "name": "Hanuman Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0213637,
+          15.8249415
+        ]
+      },
+      "id": "node/2712514747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2713934762",
+        "historic": "monument",
+        "name": "INDIRA GANDHI STATUE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0287358,
+          15.8176197
+        ]
+      },
+      "id": "node/2713934762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2839241159",
+        "historic": "memorial",
+        "name": "Sri Magunta Subaramireddy Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9710323,
+          14.4379398
+        ]
+      },
+      "id": "node/2839241159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2845485222",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "gandhi statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.100711,
+          13.2170854
+        ]
+      },
+      "id": "node/2845485222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2845487681",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "rajiv gandhi statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.098913,
+          13.2142245
+        ]
+      },
+      "id": "node/2845487681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2845696135",
+        "historic": "memorial",
+        "name": "ambedkar statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0942389,
+          13.2118371
+        ]
+      },
+      "id": "node/2845696135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3078229054",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Dr Y S Rajasekhar Reddy Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0969656,
+          13.1836527
+        ]
+      },
+      "id": "node/3078229054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3200917116",
+        "historic": "monument",
+        "name": "Gurujada appa Rao house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4119877,
+          18.1120211
+        ]
+      },
+      "id": "node/3200917116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3391994288",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "BR Ambedkar Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0129577,
+          15.1635884
+        ]
+      },
+      "id": "node/3391994288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3671685629",
+        "historic": "monument",
+        "name": "Dhwaja Sthambam",
+        "name:kn": "ಧ್ವಜಸ್ತಂಭಂ",
+        "name:te": "ధ్వజస్తంభం"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.347664,
+          13.6832751
+        ]
+      },
+      "id": "node/3671685629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3923016065",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Dhyan Chand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3290867,
+          17.7234615
+        ]
+      },
+      "id": "node/3923016065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3929885692",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3397045,
+          17.7290277
+        ]
+      },
+      "id": "node/3929885692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3986411583",
+        "historic": "archaeological_site",
+        "name": "Salihundam Buddhist Archaelogical Site",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0433121,
+          18.3339014
+        ]
+      },
+      "id": "node/3986411583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4050308998",
+        "artwork_type": "statue",
+        "historic": "monument",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3274164,
+          17.7236497
+        ]
+      },
+      "id": "node/4050308998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4064442477",
+        "historic": "memorial",
+        "name": "Ambedkar Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0492316,
+          15.4978847
+        ]
+      },
+      "id": "node/4064442477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4109211391",
+        "historic": "boundary_stone",
+        "name": "stones"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1735841,
+          14.109215
+        ]
+      },
+      "id": "node/4109211391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4115404189",
+        "historic": "monument",
+        "name": "Srikanth's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.487688,
+          16.3534762
+        ]
+      },
+      "id": "node/4115404189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4302404192",
+        "historic": "castle",
+        "name": "Sai Baba Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.501337,
+          15.3952386
+        ]
+      },
+      "id": "node/4302404192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4308689504",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "M S Subbalakshmi Memorial Statue",
+        "name:te": "ఎమ్ ఎస్ సుబ్బలక్షి"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4283945,
+          13.6293625
+        ]
+      },
+      "id": "node/4308689504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4434414898",
+        "historic": "memorial",
+        "name": "Virupakshulu sa telugu house",
+        "name:en": "Virupakshulu sa telugu house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2538262,
+          14.9445722
+        ]
+      },
+      "id": "node/4434414898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4523313979",
+        "historic": "fort",
+        "name": "Gandikota Fort",
+        "name:te": "గండికోట కోట",
+        "place": "locality",
+        "ruins": "yes",
+        "start_date": "1123",
+        "tourism": "attraction",
+        "wikidata": "Q17351034",
+        "wikimedia_commons": "Category:Gandikota Fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2874575,
+          14.8133184
+        ]
+      },
+      "id": "node/4523313979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4530665710",
+        "amenity": "place_of_worship",
+        "historic": "archaeological_site",
+        "name": "Bojjannakonda Stupas",
+        "religion": "buddhist",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.013017,
+          17.7085553
+        ]
+      },
+      "id": "node/4530665710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5039500561",
+        "fixme": "find the exact location of the statue and place it there",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "NTR STATUE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.5350198,
+          17.3557274
+        ]
+      },
+      "id": "node/5039500561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5303370960",
+        "historic": "stone",
+        "name": "Borra caves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0382648,
+          18.2805572
+        ]
+      },
+      "id": "node/5303370960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5322683428",
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "denomination": "sunni",
+        "historic": "wayside_shrine",
+        "name": "masjith",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4241331,
+          16.3063614
+        ]
+      },
+      "id": "node/5322683428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358210826",
+        "addr:street": "Revenderpadu, ooraabhavi Centre",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Ambedhkar statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6257824,
+          16.3973398
+        ]
+      },
+      "id": "node/5358210826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358228029",
+        "addr:street": "Opp. Lutheran Church",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Y. S. Raja sekhar reddy statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6255995,
+          16.3960329
+        ]
+      },
+      "id": "node/5358228029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5418600362",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject": "Zakir Hussain",
+        "subject:wikidata": "Q144719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3262818,
+          17.7159165
+        ]
+      },
+      "id": "node/5418600362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5418600363",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "V. V. Giri",
+        "subject:wikidata": "Q312557"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3260444,
+          17.7158118
+        ]
+      },
+      "id": "node/5418600363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5418600364",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "Durgabai Deshmukh",
+        "subject:wikidata": "Q3763917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3258875,
+          17.7157351
+        ]
+      },
+      "id": "node/5418600364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5418600365",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3256058,
+          17.7156035
+        ]
+      },
+      "id": "node/5418600365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5443004541",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Y S Raja Shekar Reddy Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0379895,
+          16.2416785
+        ]
+      },
+      "id": "node/5443004541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5631027246",
+        "historic": "pillory",
+        "name": "Reddivariv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5599564,
+          13.782408
+        ]
+      },
+      "id": "node/5631027246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5632473526",
+        "historic": "memorial",
+        "name": "Saraswathi statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4361254,
+          16.371392
+        ]
+      },
+      "id": "node/5632473526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5640986128",
+        "historic": "memorial",
+        "name": "Vanga veeti mohan ranga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6178879,
+          16.4629031
+        ]
+      },
+      "id": "node/5640986128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5640989735",
+        "historic": "monument",
+        "name": "Mahatma Gandhi statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6179159,
+          16.4628087
+        ]
+      },
+      "id": "node/5640989735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5641294822",
+        "historic": "memorial",
+        "name": "Ambedkar statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6077024,
+          16.4497004
+        ]
+      },
+      "id": "node/5641294822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5686396922",
+        "historic": "monument",
+        "name": "Mahatma Gandhi statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7634066,
+          16.0320123
+        ]
+      },
+      "id": "node/5686396922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5903813551",
+        "historic": "memorial",
+        "name": "Kotla Vijaya Bhaska A Reddy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.037525,
+          15.8242453
+        ]
+      },
+      "id": "node/5903813551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5919851705",
+        "historic": "memorial",
+        "name": "Sri N Chandra Babu Naidu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0133915,
+          13.7026724
+        ]
+      },
+      "id": "node/5919851705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6028770366",
+        "addr:street": "Middle street",
+        "historic": "stone",
+        "name": "YSR Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4819855,
+          16.5466924
+        ]
+      },
+      "id": "node/6028770366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6040743107",
+        "historic": "memorial",
+        "material": "metal",
+        "memorial": "statue",
+        "name": "Sri Krishna Devarayalu",
+        "subject:wikidata": "Q121235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.605573,
+          14.072026
+        ]
+      },
+      "id": "node/6040743107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6330438497",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Dr. B R Ambedkar Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6656655,
+          17.0783148
+        ]
+      },
+      "id": "node/6330438497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6344503336",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "YSR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6653938,
+          17.0771387
+        ]
+      },
+      "id": "node/6344503336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6344503337",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Jagjivan Ram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6653141,
+          17.0766884
+        ]
+      },
+      "id": "node/6344503337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6628849389",
+        "historic": "battlefield",
+        "name": "The surgical world"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3112202,
+          17.7122421
+        ]
+      },
+      "id": "node/6628849389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6829337327",
+        "historic": "memorial",
+        "name": "NTR Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.9608611,
+          16.3228165
+        ]
+      },
+      "id": "node/6829337327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6834466643",
+        "historic": "boundary_stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5047761,
+          13.8219426
+        ]
+      },
+      "id": "node/6834466643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859344130",
+        "historic": "archaeological_site",
+        "name": "Chandavaram Buddha Stupa",
+        "name:te": "చందవరం బౌద్ధస్థూపం"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4279269,
+          15.9332388
+        ]
+      },
+      "id": "node/6859344130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6859961865",
+        "historic": "archaeological_site",
+        "name": "Chandavaram Buddhist vihara",
+        "name:te": "చందవరం బౌద్ధారామం",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4277631,
+          15.9336326
+        ]
+      },
+      "id": "node/6859961865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088702280",
+        "historic": "monument",
+        "name": "Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8332863,
+          17.0373448
+        ]
+      },
+      "id": "node/7088702280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168031816",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "Dr. B R Ambedkar Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6626979,
+          17.0628899
+        ]
+      },
+      "id": "node/7168031816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7791486129",
+        "historic": "manor",
+        "name": "niranjan patra home",
+        "start_date": "2020-04-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4929242,
+          15.6501602
+        ]
+      },
+      "id": "node/7791486129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8173470878",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "NTR Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6515491,
+          16.2417475
+        ]
+      },
+      "id": "node/8173470878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8355434762",
+        "historic": "ruins",
+        "name": "Machilipatnam Old Lighthouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1796924,
+          16.1537774
+        ]
+      },
+      "id": "node/8355434762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9370053123",
+        "access": "yes",
+        "historic": "monument",
+        "name": "Sri Krishna Devaraya Vijaya Sthup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2477832,
+          17.7689184
+        ]
+      },
+      "id": "node/9370053123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9971351615",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2308149,
+          17.7197912
+        ]
+      },
+      "id": "node/9971351615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9971356760",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2326281,
+          17.7206655
+        ]
+      },
+      "id": "node/9971356760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9971509049",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2242454,
+          17.7159937
+        ]
+      },
+      "id": "node/9971509049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11079085203",
+        "access": "private",
+        "historic": "manor",
+        "name": "Devarasetti Varun",
+        "start_date": "2006-01-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0900557,
+          18.7475337
+        ]
+      },
+      "id": "node/11079085203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11278306755",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4534458,
+          16.4654826
+        ]
+      },
+      "id": "node/11278306755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11283717770",
+        "historic": "ruins",
+        "name": "Ruins of British Bungalow",
+        "note": "Former residence of Edward Croft Greenway Thomas, a British civil servant."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2918153,
+          17.7529497
+        ]
+      },
+      "id": "node/11283717770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11359691971",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "YSR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7247366,
+          13.2098706
+        ]
+      },
+      "id": "node/11359691971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11479388922",
+        "historic": "monument",
+        "name": "I Love amaravati"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6205348,
+          16.485245
+        ]
+      },
+      "id": "node/11479388922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11585801996",
+        "historic": "memorial",
+        "name": "Mahatma Gandhi Stupa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6169872,
+          16.5201061
+        ]
+      },
+      "id": "node/11585801996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11687227890",
+        "historic": "memorial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4917585,
+          16.3501925
+        ]
+      },
+      "id": "node/11687227890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11699172294",
+        "access": "yes",
+        "historic": "monument",
+        "name": "Parvathi Prameswar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3438748,
+          17.7486423
+        ]
+      },
+      "id": "node/11699172294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891802878",
+        "historic": "memorial",
+        "name": "Alluri Sitaramaraju Memorial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.0218161,
+          17.4782049
+        ]
+      },
+      "id": "node/11891802878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11982928424",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6603794,
+          14.9717309
+        ]
+      },
+      "id": "node/11982928424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12020079261",
+        "historic": "monument",
+        "name": "Clock Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5962262,
+          14.6810964
+        ]
+      },
+      "id": "node/12020079261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12073901563",
+        "historic": "archaeological_site",
+        "name": "Anupu Amphitheatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2794939,
+          16.5029095
+        ]
+      },
+      "id": "node/12073901563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078111681",
+        "historic": "memorial",
+        "name": "Dr. YSR Smruthi Vanam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5829768,
+          15.8085069
+        ]
+      },
+      "id": "node/12078111681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12258704754",
+        "artwork_type": "installation",
+        "historic": "railway_car",
+        "name": "693 Engine",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3968251,
+          18.1114001
+        ]
+      },
+      "id": "node/12258704754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12338822129",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8442432,
+          16.5530291
+        ]
+      },
+      "id": "node/12338822129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12338841859",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8436435,
+          16.5520415
+        ]
+      },
+      "id": "node/12338841859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12460637723",
+        "historic": "monument",
+        "name": "Empress Victoria Pavillion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2926716,
+          17.6954492
+        ]
+      },
+      "id": "node/12460637723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12483070267",
+        "historic": "fort",
+        "name": "Penukonda Fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5834465,
+          14.0704493
+        ]
+      },
+      "id": "node/12483070267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596332563",
+        "historic": "wayside_shrine",
+        "name": "Swami Sivananda Ashram Karavadi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1108216,
+          15.5457092
+        ]
+      },
+      "id": "node/12596332563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596559999",
+        "historic": "monument",
+        "name": "second gandhi circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8217096,
+          14.4792364
+        ]
+      },
+      "id": "node/12596559999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12690466604",
+        "historic": "landmark",
+        "name": "Boddurai Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.576316,
+          16.4843718
+        ]
+      },
+      "id": "node/12690466604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12842548886",
+        "historic": "city_gate",
+        "name": "Back Gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3756477,
+          17.7831136
+        ]
+      },
+      "id": "node/12842548886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12842548887",
+        "historic": "city_gate",
+        "name": "Front Gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3803802,
+          17.7810608
+        ]
+      },
+      "id": "node/12842548887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12954702903",
+        "historic": "memorial",
+        "material": "concrete",
+        "memorial": "statue",
+        "name": "YSR",
+        "subject:wikidata": "Q2063696",
+        "subject:wikipedia": "en:Y. S. Rajasekhara Reddy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3527719,
+          17.7989176
+        ]
+      },
+      "id": "node/12954702903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12954702910",
+        "historic": "memorial",
+        "memorial": "statue",
+        "name": "NTR",
+        "subject:wikidata": "Q2646553",
+        "subject:wikipedia": "en:N. T. Rama Rao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3527934,
+          17.7992165
+        ]
+      },
+      "id": "node/12954702910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12959413610",
+        "historic": "monument",
+        "name": "Telegu Translation of the Bible Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2957982,
+          17.7006734
+        ]
+      },
+      "id": "node/12959413610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12960205317",
+        "historic": "cannon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2930624,
+          17.689708
+        ]
+      },
+      "id": "node/12960205317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12960205318",
+        "historic": "cannon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2930843,
+          17.6894417
+        ]
+      },
+      "id": "node/12960205318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12991062882",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7254785,
+          16.5083257
+        ]
+      },
+      "id": "node/12991062882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12991132641",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7221056,
+          16.5084097
+        ]
+      },
+      "id": "node/12991132641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12991134731",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7221172,
+          16.5084236
+        ]
+      },
+      "id": "node/12991134731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993607972",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7262616,
+          16.5086769
+        ]
+      },
+      "id": "node/12993607972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993614336",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7220298,
+          16.509056
+        ]
+      },
+      "id": "node/12993614336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993639378",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7198455,
+          16.5081338
+        ]
+      },
+      "id": "node/12993639378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993640285",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7207823,
+          16.5091698
+        ]
+      },
+      "id": "node/12993640285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993670068",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7199194,
+          16.508398
+        ]
+      },
+      "id": "node/12993670068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993672586",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7199208,
+          16.5083977
+        ]
+      },
+      "id": "node/12993672586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12993698696",
+        "historic": "manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7256595,
+          16.5061876
+        ]
+      },
+      "id": "node/12993698696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12994329438",
+        "historic": "manor",
+        "name": "House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7583973,
+          16.4965045
+        ]
+      },
+      "id": "node/12994329438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013037830",
+        "historic": "memorial",
+        "memorial": "sculpture",
+        "subject": "communism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5865749,
+          16.4955273
+        ]
+      },
+      "id": "node/13013037830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013037831",
+        "historic": "memorial",
+        "memorial": "sculpture",
+        "subject": "communism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.5863798,
+          16.4957482
+        ]
+      },
+      "id": "node/13013037831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13013345636",
+        "historic": "memorial",
+        "subject": "communism"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.6132805,
+          16.4898332
+        ]
+      },
+      "id": "node/13013345636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13026764880",
+        "historic": "memorial",
+        "memorial": "plaque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9823119,
+          18.0069938
+        ]
+      },
+      "id": "node/13026764880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13063389666",
+        "historic": "fort",
+        "name": "Kundurpi Kote",
+        "name:kn": "ಕುಂದುರ್ಪಿ ಕೋಟೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0347166,
+          14.2984134
+        ]
+      },
+      "id": "node/13063389666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13084988865",
+        "historic": "memorial",
+        "material": "concrete",
+        "memorial": "sculpture",
+        "name": "CPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2939504,
+          17.7155307
+        ]
+      },
+      "id": "node/13084988865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13294439001",
+        "historic": "fort",
+        "name": "Kindapalli Fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2641194,
+          16.2543815
+        ]
+      },
+      "id": "node/13294439001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612049",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3222593,
+          17.7140126
+        ]
+      },
+      "id": "node/13318612049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612050",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "Thandra Paparayadu",
+        "subject:wikidata": "Q16873247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3220571,
+          17.7139157
+        ]
+      },
+      "id": "node/13318612050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612052",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3218284,
+          17.7137962
+        ]
+      },
+      "id": "node/13318612052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612053",
+        "historic": "artwork",
+        "memorial": "statue",
+        "subject:name": "Potti Sreeramulu",
+        "subject:wikidata": "Q3595155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.321631,
+          17.7136869
+        ]
+      },
+      "id": "node/13318612053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612055",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "Pandit Jawaharlal Nehru",
+        "subject:wikidata": "Q1047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3210311,
+          17.7133679
+        ]
+      },
+      "id": "node/13318612055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612068",
+        "historic": "memorial",
+        "memorial": "statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3225323,
+          17.7141327
+        ]
+      },
+      "id": "node/13318612068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612069",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "P V J Raju",
+        "subject:wikidata": "Q7261703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3231513,
+          17.7144155
+        ]
+      },
+      "id": "node/13318612069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612070",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "Subash Chandra Bose",
+        "subject:wikidata": "Q7630833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3228436,
+          17.714281
+        ]
+      },
+      "id": "node/13318612070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13318612071",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject:name": "Mohandas Karamchand Gandhi",
+        "subject:wikidata": "Q1001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3234289,
+          17.7145615
+        ]
+      },
+      "id": "node/13318612071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13508879175",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "రాజు గారి కోట"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.2459861,
+          16.8606576
+        ]
+      },
+      "id": "node/13508879175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13512512108",
+        "historic": "ruins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.4380401,
+          17.8888319
+        ]
+      },
+      "id": "node/13512512108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13543661728",
+        "historic": "memorial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.0341374,
+          17.7128986
+        ]
+      },
+      "id": "node/13543661728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13584160878",
+        "historic": "memorial",
+        "memorial": "statue",
+        "subject": "Y. S. Rajashekar Reddy",
+        "subject:wikidata": "Q2063696",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7921938,
+          14.5082875
+        ]
+      },
+      "id": "node/13584160878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13703302359",
+        "historic": "memorial",
+        "name": "1864 Cyclone Memorial of Fruvall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.1521054,
+          16.1516321
+        ]
+      },
+      "id": "node/13703302359"
+    }
+  ]
+}
