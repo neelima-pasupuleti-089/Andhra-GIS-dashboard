@@ -4,6 +4,7 @@ import {
   CircleMarker,
   Tooltip,
   MapContainer,
+  Marker,
   Polygon,
   Polyline,
   Popup,
@@ -11,8 +12,12 @@ import {
   ZoomControl,
   useMap,
 } from 'react-leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
+import L from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.css';
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css';
 import './App.css';
 
 import apBoundary from './data/ap_boundary.json';
@@ -265,6 +270,57 @@ function Icon({ name, size = 18 }) {
 function hexToRgb(hex) {
   const r = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return r ? `${parseInt(r[1],16)}, ${parseInt(r[2],16)}, ${parseInt(r[3],16)}` : '54,227,127';
+}
+
+const poiIconCache         = new Map();
+const contextLabelIconCache = new Map();
+
+function createCustomIcon(color) {
+  if (poiIconCache.has(color)) return poiIconCache.get(color);
+  const icon = new L.DivIcon({
+    html: `<span class="poi-dot" style="--layer-color:${color};--layer-rgb:${hexToRgb(color)}"></span>`,
+    className: 'poi-dot-shell',
+    iconSize: [6, 6],
+    iconAnchor: [3, 3],
+  });
+  poiIconCache.set(color, icon);
+  return icon;
+}
+
+// â”€â”€ UPGRADED cluster icon â€” larger sizes + dual pulse rings â”€â”€
+function createClusterIcon(cluster, color) {
+  const count   = cluster.getChildCount();
+  const size    = count > 1000 ? 48 : count > 500 ? 42 : count > 100 ? 36 : 28;
+  const sizeKey = count > 1000 ? 'xl' : count > 500 ? 'lg' : count > 100 ? 'md' : 'sm';
+  const display = count >= 1000 ? `${(count / 1000).toFixed(1)}K` : count;
+  return L.divIcon({
+    html: `<div class="cluster-node" style="--cluster-color:${color};--cluster-rgb:${hexToRgb(color)};width:${size}px;height:${size}px">
+             <div class="cluster-ring cluster-ring-1"></div>
+             <div class="cluster-ring cluster-ring-2"></div>
+             <span class="cluster-count cluster-count-${sizeKey}">${display}</span>
+           </div>`,
+    className: 'cluster-node-shell',
+    iconSize: L.point(size, size),
+  });
+}
+
+const oceanLabelIcon = new L.DivIcon({
+  html: '<div class="ocean-label">Bay of Bengal</div>',
+  className: 'ocean-label-shell',
+  iconSize: [220, 44],
+  iconAnchor: [110, 22],
+});
+
+function createContextLabelIcon(label) {
+  if (contextLabelIconCache.has(label.name)) return contextLabelIconCache.get(label.name);
+  const icon = new L.DivIcon({
+    html: `<div class="context-label" style="--context-color:${label.tone};--context-rgb:${hexToRgb(label.tone)}">${label.name}</div>`,
+    className: 'context-label-shell',
+    iconSize: [118, 18],
+    iconAnchor: [59, 9],
+  });
+  contextLabelIconCache.set(label.name, icon);
+  return icon;
 }
 
 function limitRenderedFeatures(features, key) {
@@ -677,6 +733,8 @@ function App() {
               <ZoomControl position="bottomright" />
               <FlyToLocation target={flyTarget} />
 
+              <Marker position={[14.8, 82.5]} icon={oceanLabelIcon} interactive={false} />
+
               {/* India neighboring state subtle fills â€” always visible */}
               <GeoJSON
                 data={INDIA_STATE_FILLS}
@@ -710,19 +768,7 @@ function App() {
                     interactive={false}
                   />
                   {CONTEXT_LABELS.map((label) => (
-                    <CircleMarker
-                      key={label.name}
-                      center={label.position}
-                      radius={0}
-                      pathOptions={{ opacity: 0, fillOpacity: 0 }}
-                      interactive={false}
-                    >
-                      <Tooltip permanent direction="center" opacity={1} className="context-label-tooltip">
-                        <span className="context-label" style={{ '--context-color': label.tone, '--context-rgb': hexToRgb(label.tone) }}>
-                          {label.name}
-                        </span>
-                      </Tooltip>
-                    </CircleMarker>
+                    <Marker key={label.name} position={label.position} icon={createContextLabelIcon(label)} interactive={false} />
                   ))}
                 </>
               )}
@@ -790,45 +836,44 @@ function App() {
                       style={() => ({ color:col.color, weight:1, opacity:0.3, fillColor:col.color, fillOpacity:0.07 })}
                     />
                   )}
-                  {col.pointFeatures.map((feature, idx) => {
-                    const center = getFeatureCenter(feature);
-                    if (!center) return null;
-                    const [lng, lat] = center;
-                    if (!lat || !lng) return null;
-                    return (
-                      <CircleMarker
-                        key={`${col.key}-${idx}`}
-                        center={[lat,lng]}
-                        radius={2.6}
-                        pathOptions={{
-                          color: col.color,
-                          fillColor: col.color,
-                          fillOpacity: 0.82,
-                          opacity: 0.9,
-                          weight: 1,
-                        }}
-                      >
-                        <Popup>
-                          <div className="popup-content" style={{ '--popup-color':col.color }}>
-                            <span className="popup-kicker">{col.label}</span>
-                            <strong>{getFeatureName(feature, `${col.label} node`)}</strong>
-                            {feature.properties && (
-                              <div className="popup-fields">
-                                {Object.entries(feature.properties).filter(([k]) => k !== 'name').slice(0,9).map(([k,v]) => (
-                                  <div key={k}><span>{k.replace(/_/g,' ')}</span><b>{String(v)}</b></div>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        </Popup>
-                      </CircleMarker>
-                    );
-                  })}
+                  <MarkerClusterGroup
+                    chunkedLoading
+                    chunkDelay={20}
+                    chunkInterval={50}
+                    removeOutsideVisibleBounds
+                    spiderfyOnMaxZoom={false}
+                    maxClusterRadius={40}
+                    animateAddingMarkers={false}
+                    disableClusteringAtZoom={14}
+                    iconCreateFunction={(cluster) => createClusterIcon(cluster, col.color)}
+                  >
+                    {col.pointFeatures.map((feature, idx) => {
+                      const center = getFeatureCenter(feature);
+                      if (!center) return null;
+                      const [lng, lat] = center;
+                      if (!lat || !lng) return null;
+                      return (
+                        <Marker key={`${col.key}-${idx}`} position={[lat,lng]} icon={createCustomIcon(col.color)}>
+                          <Popup>
+                            <div className="popup-content" style={{ '--popup-color':col.color }}>
+                              <span className="popup-kicker">{col.label}</span>
+                              <strong>{getFeatureName(feature, `${col.label} node`)}</strong>
+                              {feature.properties && (
+                                <div className="popup-fields">
+                                  {Object.entries(feature.properties).filter(([k]) => k !== 'name').slice(0,9).map(([k,v]) => (
+                                    <div key={k}><span>{k.replace(/_/g,' ')}</span><b>{String(v)}</b></div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          </Popup>
+                        </Marker>
+                      );
+                    })}
+                  </MarkerClusterGroup>
                 </React.Fragment>
               ))}
             </MapContainer>
-
-            <div className="ocean-label-map" aria-hidden="true">Bay of Bengal</div>
 
             {/* Beach icon â€” sits on map frame outside MapContainer */}
             <div className="beach-corner-icon" aria-hidden="true">
