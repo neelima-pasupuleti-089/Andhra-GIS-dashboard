@@ -231,7 +231,7 @@ const PIPELINE_STEPS = [
 ];
 
 const FEATURE_CARDS = [
-  { title: 'Dynamic Layers', text: 'Toggle 14 AP POI categories â€” transport, health, education, civic, culture, environment.', icon: 'layers' },
+  { title: 'Dynamic Layers', text: 'Toggle 14 AP POI categories - transport, health, education, civic, culture, environment.', icon: 'layers' },
   { title: 'Live OSM Sync',  text: 'Refresh any layer via Overpass API and keep data production-accurate.',                     icon: 'refresh' },
   { title: 'Map Intelligence',text: 'Boundary mask, coastal spine, city labels, and corridor overlays.',                        icon: 'route' },
   { title: 'Instant Export', text: 'Download per-layer or full-stack GeoJSON and CSV without leaving the view.',               icon: 'download' },
@@ -450,7 +450,7 @@ function PlaceSearch({ onSelect }) {
         <Icon name="search" size={14} />
         <input
           type="text"
-          placeholder="Search places in Andhra Pradeshâ€¦"
+          placeholder="Search places in Andhra Pradesh..."
           value={query}
           onChange={(e) => handleQueryChange(e.target.value)}
           onFocus={() => results.length > 0 && setOpen(true)}
@@ -700,7 +700,7 @@ function App() {
               <span className="pulse-mark" />
               <div>
                 <strong>Live data ready</strong>
-                <p>{loadedLayerCount} of {activeCategoryKeys.length} active layers loaded Â· {totalRenderedPoints.toLocaleString()} features rendered</p>
+                <p>{loadedLayerCount} of {activeCategoryKeys.length} active layers loaded &middot; {totalRenderedPoints.toLocaleString()} features rendered</p>
               </div>
             </div>
 
@@ -952,7 +952,7 @@ function App() {
                   <span className="district-active-dot" />
                   <div>
                     <strong>{selectedDistrict.label}</strong>
-                    <p>Map zoomed to district Â· POIs filtered</p>
+                    <p>Map zoomed to district &middot; POIs filtered</p>
                   </div>
                 </div>
               )}
@@ -1019,9 +1019,9 @@ function App() {
                       <span>
                         <span className="layer-name-row">
                           <strong>{cat.label}</strong>
-                          <span className={statusClass} title={isLoading ? 'Loadingâ€¦' : isLoaded ? 'Data ready' : hasError ? 'Load failed' : 'Not loaded'} />
+                          <span className={statusClass} title={isLoading ? 'Loading...' : isLoaded ? 'Data ready' : hasError ? 'Load failed' : 'Not loaded'} />
                         </span>
-                        <small>{cat.group} Â· {isLoading ? 'Loadingâ€¦' : `${count.toLocaleString()} features`}</small>
+                        <small>{cat.group} &middot; {isLoading ? 'Loading...' : `${count.toLocaleString()} features`}</small>
                       </span>
                     </button>
                     <div className="layer-actions">
@@ -1186,10 +1186,10 @@ function App() {
             </div>
             <div className="footer-content">
               <div className="footer-built-row">
-                <span className="footer-heart">â™¥</span>
+                <span className="footer-heart">&hearts;</span>
                 <div>
-                  <strong>Made with â™¥ for Andhra Pradesh</strong>
-                  <p>Open source Â· Community driven Â· OSM powered</p>
+                  <strong>Made with &hearts; for Andhra Pradesh</strong>
+                  <p>Open source &middot; Community driven &middot; OSM powered</p>
                 </div>
               </div>
             </div>
