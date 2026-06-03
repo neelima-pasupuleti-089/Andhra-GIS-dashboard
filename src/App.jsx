@@ -1,6 +1,8 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   GeoJSON,
+  CircleMarker,
+  Tooltip,
   MapContainer,
   Marker,
   Polygon,
@@ -51,7 +53,7 @@ const CATEGORIES = {
 
 const CATEGORY_KEYS = Object.keys(CATEGORIES);
 
-// ─── AP DISTRICTS ────────────────────────────────────────
+// â”€â”€â”€ AP DISTRICTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const AP_DISTRICTS = [
   { key: 'srikakulam',    label: 'Srikakulam',    center: [18.30, 83.90], bounds: [[17.85,83.45],[18.75,84.65]] },
   { key: 'vizianagaram',  label: 'Vizianagaram',  center: [18.12, 83.40], bounds: [[17.70,82.85],[18.65,84.05]] },
@@ -129,14 +131,14 @@ const cityLine = (name, from, to) => ({
 const CITY_CONNECTIONS = {
   type: 'FeatureCollection',
   features: [
-    cityLine('Visakhapatnam–Kakinada Port Belt',  'Visakhapatnam', 'Kakinada'),
+    cityLine('Visakhapatnamâ€“Kakinada Port Belt',  'Visakhapatnam', 'Kakinada'),
     cityLine('Godavari Delta Connector',           'Kakinada', 'Rajahmundry'),
-    cityLine('Rajahmundry–Vijayawada Axis',        'Rajahmundry', 'Vijayawada'),
-    cityLine('Vijayawada–Guntur Link',             'Vijayawada', 'Guntur'),
+    cityLine('Rajahmundryâ€“Vijayawada Axis',        'Rajahmundry', 'Vijayawada'),
+    cityLine('Vijayawadaâ€“Guntur Link',             'Vijayawada', 'Guntur'),
     cityLine('Coastal South Corridor',             'Guntur', 'Nellore'),
     cityLine('Pilgrim South Link',                 'Nellore', 'Tirupati'),
     cityLine('Rayalaseema Inner Web',              'Tirupati', 'Kadapa'),
-    cityLine('Kadapa–Kurnool Link',                'Kadapa', 'Kurnool'),
+    cityLine('Kadapaâ€“Kurnool Link',                'Kadapa', 'Kurnool'),
     cityLine('Interior Capital Link',              'Kurnool', 'Vijayawada'),
   ],
 };
@@ -229,13 +231,13 @@ const PIPELINE_STEPS = [
 ];
 
 const FEATURE_CARDS = [
-  { title: 'Dynamic Layers', text: 'Toggle 14 AP POI categories — transport, health, education, civic, culture, environment.', icon: 'layers' },
+  { title: 'Dynamic Layers', text: 'Toggle 14 AP POI categories â€” transport, health, education, civic, culture, environment.', icon: 'layers' },
   { title: 'Live OSM Sync',  text: 'Refresh any layer via Overpass API and keep data production-accurate.',                     icon: 'refresh' },
   { title: 'Map Intelligence',text: 'Boundary mask, coastal spine, city labels, and corridor overlays.',                        icon: 'route' },
   { title: 'Instant Export', text: 'Download per-layer or full-stack GeoJSON and CSV without leaving the view.',               icon: 'download' },
 ];
 
-// ─── ICONS ───────────────────────────────────────────────
+// â”€â”€â”€ ICONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function Icon({ name, size = 18 }) {
   const paths = {
@@ -263,7 +265,7 @@ function Icon({ name, size = 18 }) {
   );
 }
 
-// ─── HELPERS ─────────────────────────────────────────────
+// â”€â”€â”€ HELPERS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function hexToRgb(hex) {
   const r = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -271,7 +273,6 @@ function hexToRgb(hex) {
 }
 
 const poiIconCache         = new Map();
-const cityIconCache        = new Map();
 const contextLabelIconCache = new Map();
 
 function createCustomIcon(color) {
@@ -286,7 +287,7 @@ function createCustomIcon(color) {
   return icon;
 }
 
-// ── UPGRADED cluster icon — larger sizes + dual pulse rings ──
+// â”€â”€ UPGRADED cluster icon â€” larger sizes + dual pulse rings â”€â”€
 function createClusterIcon(cluster, color) {
   const count   = cluster.getChildCount();
   const size    = count > 1000 ? 48 : count > 500 ? 42 : count > 100 ? 36 : 28;
@@ -309,20 +310,6 @@ const oceanLabelIcon = new L.DivIcon({
   iconSize: [220, 44],
   iconAnchor: [110, 22],
 });
-
-function createCityIcon(city) {
-  if (cityIconCache.has(city.name)) return cityIconCache.get(city.name);
-  const neon = city.neonColor || THEME.amber;
-  const rgb  = hexToRgb(neon);
-  const icon = new L.DivIcon({
-    html: `<div class="city-label" style="--city-neon:${neon};--city-rgb:${rgb}"><i></i><span>${city.name.toUpperCase()}</span></div>`,
-    className: 'city-label-shell',
-    iconSize: [160, 28],
-    iconAnchor: [10, 14],
-  });
-  cityIconCache.set(city.name, icon);
-  return icon;
-}
 
 function createContextLabelIcon(label) {
   if (contextLabelIconCache.has(label.name)) return contextLabelIconCache.get(label.name);
@@ -398,7 +385,7 @@ function downloadBlob(content, fileName, type) {
   document.body.removeChild(link); URL.revokeObjectURL(url);
 }
 
-// ─── FLY TO ──────────────────────────────────────────────
+// â”€â”€â”€ FLY TO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function FlyToLocation({ target }) {
   const map = useMap();
@@ -408,7 +395,7 @@ function FlyToLocation({ target }) {
   return null;
 }
 
-// ─── PLACE SEARCH ────────────────────────────────────────
+// â”€â”€â”€ PLACE SEARCH â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function PlaceSearch({ onSelect }) {
   const [query, setQuery]   = useState('');
@@ -463,7 +450,7 @@ function PlaceSearch({ onSelect }) {
         <Icon name="search" size={14} />
         <input
           type="text"
-          placeholder="Search places in Andhra Pradesh…"
+          placeholder="Search places in Andhra Pradeshâ€¦"
           value={query}
           onChange={(e) => handleQueryChange(e.target.value)}
           onFocus={() => results.length > 0 && setOpen(true)}
@@ -497,7 +484,7 @@ function PlaceSearch({ onSelect }) {
   );
 }
 
-// ─── APP ─────────────────────────────────────────────────
+// â”€â”€â”€ APP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function App() {
   const apCenter     = [15.9129, 79.74];
@@ -680,7 +667,7 @@ function App() {
 
       <section className="dashboard-shell">
 
-        {/* ── LEFT SIDEBAR ── */}
+        {/* â”€â”€ LEFT SIDEBAR â”€â”€ */}
         <aside className="intro-panel" aria-label="Andhra Pradesh GIS overview">
           <div className="intro-inner">
 
@@ -713,7 +700,7 @@ function App() {
               <span className="pulse-mark" />
               <div>
                 <strong>Live data ready</strong>
-                <p>{loadedLayerCount} of {activeCategoryKeys.length} active layers loaded · {totalRenderedPoints.toLocaleString()} features rendered</p>
+                <p>{loadedLayerCount} of {activeCategoryKeys.length} active layers loaded Â· {totalRenderedPoints.toLocaleString()} features rendered</p>
               </div>
             </div>
 
@@ -727,7 +714,7 @@ function App() {
           </div>
         </aside>
 
-        {/* ── MAP ── */}
+        {/* â”€â”€ MAP â”€â”€ */}
         <section className="map-stage" aria-label="Interactive Andhra Pradesh map">
           <div className="map-frame">
 
@@ -748,7 +735,7 @@ function App() {
 
               <Marker position={[14.8, 82.5]} icon={oceanLabelIcon} interactive={false} />
 
-              {/* India neighboring state subtle fills — always visible */}
+              {/* India neighboring state subtle fills â€” always visible */}
               <GeoJSON
                 data={INDIA_STATE_FILLS}
                 style={(feature) => ({
@@ -823,15 +810,21 @@ function App() {
               )}
 
               {mapOverlays.cityLabels && CITY_NODES.map((city) => (
-                <Marker key={city.name} position={city.position} icon={createCityIcon(city)}>
-                  <Popup>
-                    <div className="popup-content">
-                      <span className="popup-kicker">Strategic City</span>
-                      <strong>{city.name}</strong>
-                      <p>{city.role}</p>
-                    </div>
-                  </Popup>
-                </Marker>
+                <CircleMarker
+                  key={city.name}
+                  center={city.position}
+                  radius={0}
+                  pane="markerPane"
+                  pathOptions={{ opacity: 0, fillOpacity: 0, interactive: false }}
+                  interactive={false}
+                >
+                  <Tooltip permanent direction="right" offset={[8, 0]} opacity={1} className="city-label-tooltip">
+                    <span className="city-label" style={{ '--city-neon': city.neonColor, '--city-rgb': hexToRgb(city.neonColor) }}>
+                      <i />
+                      <span>{city.name.toUpperCase()}</span>
+                    </span>
+                  </Tooltip>
+                </CircleMarker>
               ))}
 
               {activeFeatureCollections.map((col) => (
@@ -882,7 +875,7 @@ function App() {
               ))}
             </MapContainer>
 
-            {/* Beach icon — sits on map frame outside MapContainer */}
+            {/* Beach icon â€” sits on map frame outside MapContainer */}
             <div className="beach-corner-icon" aria-hidden="true">
               <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="16" cy="10" r="4.5" stroke="#fbbf24" strokeWidth="1.5" opacity="0.9"/>
@@ -903,7 +896,7 @@ function App() {
           </div>
         </section>
 
-        {/* ── RIGHT SIDEBAR ── */}
+        {/* â”€â”€ RIGHT SIDEBAR â”€â”€ */}
         <aside className="control-panel" aria-label="Layer controls">
           <div className="control-inner">
 
@@ -939,7 +932,7 @@ function App() {
               </div>
             </div>
 
-            {/* ── District Filter ── */}
+            {/* â”€â”€ District Filter â”€â”€ */}
             <div className="district-section">
               <div className="district-header">
                 <div>
@@ -959,7 +952,7 @@ function App() {
                   <span className="district-active-dot" />
                   <div>
                     <strong>{selectedDistrict.label}</strong>
-                    <p>Map zoomed to district · POIs filtered</p>
+                    <p>Map zoomed to district Â· POIs filtered</p>
                   </div>
                 </div>
               )}
@@ -1009,7 +1002,7 @@ function App() {
                 const hasError  = !!layerErrors[key];
                 const count     = layerCounts[key];
 
-                // status dot class: loading → pulsing green, loaded → solid green, error → red, idle → dim
+                // status dot class: loading â†’ pulsing green, loaded â†’ solid green, error â†’ red, idle â†’ dim
                 const statusClass = isLoading
                   ? 'layer-status-dot is-loading'
                   : isLoaded
@@ -1026,9 +1019,9 @@ function App() {
                       <span>
                         <span className="layer-name-row">
                           <strong>{cat.label}</strong>
-                          <span className={statusClass} title={isLoading ? 'Loading…' : isLoaded ? 'Data ready' : hasError ? 'Load failed' : 'Not loaded'} />
+                          <span className={statusClass} title={isLoading ? 'Loadingâ€¦' : isLoaded ? 'Data ready' : hasError ? 'Load failed' : 'Not loaded'} />
                         </span>
-                        <small>{cat.group} · {isLoading ? 'Loading…' : `${count.toLocaleString()} features`}</small>
+                        <small>{cat.group} Â· {isLoading ? 'Loadingâ€¦' : `${count.toLocaleString()} features`}</small>
                       </span>
                     </button>
                     <div className="layer-actions">
@@ -1089,7 +1082,7 @@ function App() {
         </aside>
       </section>
 
-      {/* ── FOOTER ── */}
+      {/* â”€â”€ FOOTER â”€â”€ */}
       <footer className="dashboard-footer">
         <div className="footer-main-row">
 
@@ -1109,10 +1102,10 @@ function App() {
             </div>
           </div>
 
-          {/* ── Footer identity: beach scene + "Made with ♥" ── */}
+          {/* â”€â”€ Footer identity: beach scene + "Made with â™¥" â”€â”€ */}
           <div className="footer-identity">
             <div className="footer-map-thumb" aria-hidden="true">
-              {/* Beach scene SVG — AP coastal card */}
+              {/* Beach scene SVG â€” AP coastal card */}
               <svg viewBox="0 0 60 76" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
@@ -1193,10 +1186,10 @@ function App() {
             </div>
             <div className="footer-content">
               <div className="footer-built-row">
-                <span className="footer-heart">♥</span>
+                <span className="footer-heart">â™¥</span>
                 <div>
-                  <strong>Made with ♥ for Andhra Pradesh</strong>
-                  <p>Open source · Community driven · OSM powered</p>
+                  <strong>Made with â™¥ for Andhra Pradesh</strong>
+                  <p>Open source Â· Community driven Â· OSM powered</p>
                 </div>
               </div>
             </div>
@@ -1227,3 +1220,6 @@ function App() {
 }
 
 export default App;
+
+
+

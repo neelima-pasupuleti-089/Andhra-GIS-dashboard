@@ -1,6 +1,6 @@
-/* ─────────────────────────────────────────────────────────
-   ANDHRA PRADESH GIS DASHBOARD — App.css
-   ───────────────────────────────────────────────────────── */
+﻿/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+   ANDHRA PRADESH GIS DASHBOARD â€” App.css
+   â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 :root {
   --bg:           #060c14;
@@ -26,9 +26,9 @@
 button, input { font: inherit; color: inherit; border: none; }
 button { cursor: pointer; background: transparent; }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    ROOT LAYOUT
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .ap-dashboard {
   width: 100vw;
@@ -48,9 +48,9 @@ button { cursor: pointer; background: transparent; }
   overflow: hidden;
 }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    SIDEBARS
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .intro-panel,
 .control-panel {
@@ -97,7 +97,7 @@ button { cursor: pointer; background: transparent; }
   background: rgba(54, 227, 127, 0.18);
 }
 
-/* ─── LEFT SIDEBAR INNER ─────────────────────────────── */
+/* â”€â”€â”€ LEFT SIDEBAR INNER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .intro-inner {
   position: relative;
@@ -252,9 +252,9 @@ button { cursor: pointer; background: transparent; }
   letter-spacing: 0.06em;
 }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    MAP STAGE
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .map-stage {
   position: relative;
@@ -357,7 +357,7 @@ button { cursor: pointer; background: transparent; }
   padding: 0 10px 10px 0;
 }
 
-/* ── Beach corner icon ── */
+/* â”€â”€ Beach corner icon â”€â”€ */
 .beach-corner-icon {
   position: absolute;
   bottom: 96px;
@@ -426,14 +426,15 @@ button { cursor: pointer; background: transparent; }
 @keyframes detailDash { to { stroke-dashoffset: -140; } }
 @keyframes coastPulse { 50% { opacity: 0.88; } }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    MAP MARKERS
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .poi-dot-shell,
 .cluster-node-shell,
 .ocean-label-shell,
 .city-label-shell,
+.city-label-tooltip,
 .context-label-shell { background: transparent; border: 0; }
 
 .poi-dot {
@@ -448,9 +449,9 @@ button { cursor: pointer; background: transparent; }
     0 0 14px rgba(var(--layer-rgb), 0.35);
 }
 
-/* ═══════════════════════════════════════════════════════
-   CLUSTER NODES — upgraded system
-   ═══════════════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   CLUSTER NODES â€” upgraded system
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 @keyframes cluster-pop {
   0%   { transform: scale(0.35); opacity: 0; }
@@ -499,7 +500,7 @@ button { cursor: pointer; background: transparent; }
     0 0 46px     rgba(var(--cluster-rgb), 0.32);
 }
 
-/* Dual pulse rings — staggered ripple effect */
+/* Dual pulse rings â€” staggered ripple effect */
 .cluster-ring {
   position: absolute;
   inset: 0;
@@ -516,7 +517,7 @@ button { cursor: pointer; background: transparent; }
   animation: cluster-pulse-2 2.2s ease-out 1.1s infinite;
 }
 
-/* Count label — monospace bold, per-tier sizing */
+/* Count label â€” monospace bold, per-tier sizing */
 .cluster-count {
   position: relative;
   z-index: 2;
@@ -534,7 +535,7 @@ button { cursor: pointer; background: transparent; }
 .cluster-count-lg { font-size: 11px; }
 .cluster-count-xl { font-size: 12px; }
 
-/* ── City labels ── */
+/* â”€â”€ City labels â”€â”€ */
 .city-label {
   display: inline-flex;
   align-items: center;
@@ -573,6 +574,17 @@ button { cursor: pointer; background: transparent; }
     0 0 18px rgba(var(--city-rgb, 251,191,36), 0.5),
     0 1px 3px rgba(0,0,0,0.7);
 }
+.city-label-tooltip {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.city-label-tooltip::before {
+  display: none;
+}
 
 .ocean-label {
   color: rgba(100,244,181,0.1);
@@ -598,9 +610,9 @@ button { cursor: pointer; background: transparent; }
   white-space: nowrap;
 }
 
-/* ═══════════════════════════════════════════════════════
-   MAP METRICS BAR — bottom centre
-   ═══════════════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   MAP METRICS BAR â€” bottom centre
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .map-metrics-bar {
   position: absolute;
@@ -624,9 +636,9 @@ button { cursor: pointer; background: transparent; }
 .map-metrics-bar span { display: block; color: #fff; font-size: 16px; font-weight: 800; line-height: 1; }
 .map-metrics-bar p { margin-top: 3px; color: var(--muted); font-size: 8.5px; text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    PLACE SEARCH
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .place-search-wrap {
   position: absolute;
@@ -740,9 +752,9 @@ button { cursor: pointer; background: transparent; }
 
 .place-no-results { padding: 12px; color: var(--muted); font-size: 10.5px; text-align: center; }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    POPUP
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .popup-content { min-width: 190px; max-width: 250px; }
 
@@ -771,9 +783,9 @@ button { cursor: pointer; background: transparent; }
 .popup-fields span { color: var(--green); font-size: 9.5px; text-transform: capitalize; }
 .popup-fields b    { color: #fff; font-size: 9.5px; font-weight: 600; overflow-wrap: anywhere; }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    RIGHT SIDEBAR INNER
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .control-inner {
   position: relative;
@@ -886,7 +898,7 @@ button { cursor: pointer; background: transparent; }
   letter-spacing: 0.05em;
 }
 
-/* ─── district filter ──────────────────────────────── */
+/* â”€â”€â”€ district filter â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .district-section {
   display: flex;
@@ -991,7 +1003,7 @@ button { cursor: pointer; background: transparent; }
   flex: 0 0 5px;
 }
 
-/* ─── layer section header ─────────────────────────── */
+/* â”€â”€â”€ layer section header â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .layer-section-header {
   display: flex;
@@ -1020,7 +1032,7 @@ button { cursor: pointer; background: transparent; }
 
 .show-all-btn:hover { color: #fff; }
 
-/* ─── layer list ────────────────────────────────────── */
+/* â”€â”€â”€ layer list â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .layer-list {
   flex: 0 0 auto;
@@ -1067,7 +1079,7 @@ button { cursor: pointer; background: transparent; }
   box-shadow: 0 0 6px rgba(var(--layer-rgb), 0.7);
 }
 
-/* ── Layer name row: label + status dot inline ── */
+/* â”€â”€ Layer name row: label + status dot inline â”€â”€ */
 .layer-name-row {
   display: flex;
   align-items: center;
@@ -1077,12 +1089,12 @@ button { cursor: pointer; background: transparent; }
 .layer-main strong { display: block; color: #fff; font-size: 11px; font-weight: 600; line-height: 1.2; }
 .layer-main small  { display: block; color: var(--muted); font-size: 9.5px; margin-top: 1px; }
 
-/* ─── Layer status dot ───────────────────────────────
-   idle     → 5px dim grey dot
-   loading  → pulsing green dot (animates while fetching)
-   ready    → solid green dot with glow
-   error    → solid red dot
-   ─────────────────────────────────────────────────── */
+/* â”€â”€â”€ Layer status dot â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+   idle     â†’ 5px dim grey dot
+   loading  â†’ pulsing green dot (animates while fetching)
+   ready    â†’ solid green dot with glow
+   error    â†’ solid red dot
+   â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .layer-status-dot {
   flex: 0 0 5px;
@@ -1208,7 +1220,7 @@ button { cursor: pointer; background: transparent; }
 
 .expand-row:hover { border-color: rgba(34,211,238,0.26); background: rgba(34,211,238,0.04); }
 
-/* ─── overlay section ───────────────────────────────── */
+/* â”€â”€â”€ overlay section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .overlay-section { display: flex; flex-direction: column; gap: 8px; }
 
@@ -1254,7 +1266,7 @@ button { cursor: pointer; background: transparent; }
 
 .overlay-pill:hover { border-color: rgba(var(--layer-rgb), 0.22); color: #fff; }
 
-/* ─── export bar ────────────────────────────────────── */
+/* â”€â”€â”€ export bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .export-bar {
   display: grid;
@@ -1293,9 +1305,9 @@ button { cursor: pointer; background: transparent; }
 
 .export-bar .primary-export:hover { background: linear-gradient(150deg, #60f4a0, #25cc66); }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    TOAST
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .toast-message {
   position: fixed;
@@ -1315,9 +1327,9 @@ button { cursor: pointer; background: transparent; }
 
 @keyframes toastIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    FOOTER
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .dashboard-footer {
   display: flex;
@@ -1327,7 +1339,7 @@ button { cursor: pointer; background: transparent; }
   overflow: hidden;
 }
 
-/* ── Top row: pipeline + identity ── */
+/* â”€â”€ Top row: pipeline + identity â”€â”€ */
 .footer-main-row {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -1337,9 +1349,16 @@ button { cursor: pointer; background: transparent; }
   min-height: 96px;
 }
 
-.pipeline { min-width: 0; }
+.pipeline {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 .pipeline-label {
+  width: min(100%, 980px);
   color: var(--green);
   font-size: 9px;
   font-weight: 800;
@@ -1350,9 +1369,12 @@ button { cursor: pointer; background: transparent; }
 
 .pipeline-flow {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  width: min(100%, 980px);
   min-height: 72px;
+  margin: 0 auto;
   padding: 8px 14px;
   border: 1px solid rgba(100,200,240,0.1);
   border-radius: var(--radius-lg);
@@ -1398,7 +1420,7 @@ button { cursor: pointer; background: transparent; }
   background: linear-gradient(90deg, rgba(238,248,247,0.04), rgba(238,248,247,0.2));
 }
 
-/* ── Footer identity: beach scene + "Made with ♥" ── */
+/* â”€â”€ Footer identity: beach scene + "Made with â™¥" â”€â”€ */
 .footer-identity {
   display: flex;
   align-items: center;
@@ -1460,7 +1482,7 @@ button { cursor: pointer; background: transparent; }
 
 .footer-identity p { color: var(--muted); font-size: 9px; margin-top: 1px; white-space: nowrap; }
 
-/* ── Tech bar — full-width bottom strip ── */
+/* â”€â”€ Tech bar â€” full-width bottom strip â”€â”€ */
 .footer-tech-bar {
   display: flex;
   align-items: center;
@@ -1501,9 +1523,9 @@ button { cursor: pointer; background: transparent; }
 
 .tech-tag .icon { opacity: 0.5; }
 
-/* ═══════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    RESPONSIVE
-   ═══════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 @media (max-width: 1380px) {
   .dashboard-shell { grid-template-columns: 316px minmax(0,1fr) 310px; }
@@ -1528,3 +1550,5 @@ button { cursor: pointer; background: transparent; }
   .sidebar-stats-row { grid-template-columns: 1fr 1fr; }
   .footer-identity { flex-wrap: wrap; }
 }
+
+
